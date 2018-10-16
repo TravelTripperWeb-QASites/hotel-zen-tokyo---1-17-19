@@ -21,6 +21,11 @@
       }
     }
   }
+  .form-control {
+    &:valid {
+      border-color: $black !important;
+    }
+  }
   input, textarea {
     padding: 12px 20px;
     font-family: $header-font-family;
@@ -38,7 +43,7 @@
   }
   input[type='checkbox'] {
     margin-top: 10px;
-    background-color: transparent;
+    background-color: transparent !important;
     border: solid 1px $black;
     border-radius: 0;
   }
@@ -47,7 +52,7 @@
     font-family: $header-font-family;
     font-size: $type-size-7;
     line-height: normal;
-    color: $black;
+    color: $black !important;
     a {
       color: $black;
       text-decoration: underline;
@@ -63,7 +68,7 @@
     label {
       &:before {
         top: 7px;
-        background-color: transparent;
+        background-color: transparent !important;
         border: solid 1px $black;
         border-radius: 0;
       }
@@ -75,4 +80,10 @@
   button {
     cursor: pointer;
   }
+}
+
+//error input
+.error {
+  color: $red !important;
+  border-color: $red !important;
 }

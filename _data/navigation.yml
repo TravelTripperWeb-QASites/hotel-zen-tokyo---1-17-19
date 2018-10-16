@@ -15,7 +15,7 @@ main_localized:
       url: /ja/rooms/
     - title: ロケーション
       url: /ja/location/
-    - title: 画廊
+    - title: ギャラリー
       url: /ja/gallery/
     - title: ブログ
       url: /ja/blog/
@@ -39,7 +39,7 @@ footer_left_localized:
       url: /ja/rooms/
     - title: ロケーション
       url: /ja/location/
-    - title: 画廊
+    - title: ギャラリー
       url: /ja/gallery/
     - title: ブログ
       url: /ja/blog/

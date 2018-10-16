@@ -17,6 +17,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-family: $header-font-family;
+  &:focus {
+    outline: none;
+  }
 }
 
 h1 {
@@ -116,6 +119,13 @@ p {
   line-height: 1.5rem;
   color: $black;
   letter-spacing: .5px;
+  &:focus {
+    outline: none;
+  }
+}
+
+:focus {
+  outline: none;
 }
 
 //For text color light & dark states w.r.t above text options
