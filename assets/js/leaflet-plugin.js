@@ -12,7 +12,7 @@
         hotelLong: 139.7821,
         hotelMarker: '/assets/images/map-marker.png',
         markerSize: [55, 55],
-        zoom: 16,
+        zoom: 18,
         minZoom: 0,
         maxZoom: 20,
         fitBounds: true,

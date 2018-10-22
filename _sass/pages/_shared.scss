@@ -146,6 +146,7 @@
     .custom-control-label {
       position: relative;
       padding-left: 25px;
+      font-size: $type-size-6;
       text-align: center;
       &::before {
         background-color: transparent;

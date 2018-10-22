@@ -32,3 +32,20 @@
 
 <script src="{{ '/assets/js/main.min.js' | absolute_url }}"></script>
 <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+{% if page.url contains 'contact'%}
+<script src="/assets/js/jquery.validate.min.js"></script>
+<script type="text/javascript">
+//contact form validation
+  $(document).ready(function () {
+
+    $('#82610960182454').validate({
+
+        onfocusout: function(element) {
+            this.element(element);
+        }
+    });
+
+  });
+</script>
+{% endif %}

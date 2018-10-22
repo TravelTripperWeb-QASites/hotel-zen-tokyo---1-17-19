@@ -73,6 +73,11 @@
       font-weight: 300;
     }
     .table-content {
+      overflow-x: auto;
+      @include media-breakpoint-down(xs) {
+        font-size: $type-size-7;
+        line-height: 1.3rem;
+      }
       .table {
         &:focus {
           outline: none;
@@ -84,6 +89,16 @@
             border-bottom-width: 1px;
             &:first-child {
               width: 25%;
+            }
+          }
+        }
+        tbody {
+          td {
+            p {
+              @include media-breakpoint-down(xs) {
+                font-size: $type-size-7;
+                line-height: 1.3rem;
+              }
             }
           }
         }
