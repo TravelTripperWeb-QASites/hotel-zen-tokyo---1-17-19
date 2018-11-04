@@ -1,6 +1,6 @@
 {
   "amenities_access_facilities_localized": {
-    "en": "<ul>\n<li>Locker for big luggage&nbsp;(on the same floor)&nbsp;</li>\n<li>Coin laundry</li>\n<li>Bar / cafe \"NAME\"</li>\n<li>Work &amp; study lounge</li>\n<li>Communal shower &amp; bathrooms</li>\n</ul>",
+    "en": "<ul>\n<li>Locker for big luggage&nbsp;(on the same floor)&nbsp;</li>\n<li>Coin laundry</li>\n<li>Bar / cafe&nbsp;</li>\n<li>Work &amp; study lounge</li>\n<li>Communal shower &amp; bathrooms</li>\n</ul>",
     "ja": "・荷物用個別ロッカー（同フロア・カプセル外\n・共用シャワー・バスルーム\n・コインランドリー \n・ワーク・スタディラウンジ ・バー・カフェ"
   },
   "image": {
@@ -162,13 +162,13 @@
       "caption": ""
     }
   ],
-  "url_friendly_name": "matsu-semi-double-bed-pod",
+  "url_friendly_name": "sakura-semi-double-bed-pod",
   "book_room_localized": {
     "en": "https://hotels.cloudbeds.com/en/reservation/yvrDGL",
     "ja": "https://hotels.cloudbeds.com/ja/reservation/yvrDGL"
   },
   "title_localized": {
-    "en": "MATSU - SEMIDOUBLE BED WITH EXTRA ROOM",
+    "en": "SAKURA - SEMIDOUBLE BED WITH EXTRA ROOM",
     "ja": "MATSU - SEMIDOUBLE BED WITH EXTRA ROOM"
   },
   "short_info_localized": {
@@ -192,7 +192,7 @@
     "ja": "・無料Wi-Fi \n・鍵付きセーフティボックス \n・衣服ハンガー \n・電源コンセント2口 \n・アメニティフルセット \n・タオル"
   },
   "room_title_localized": {
-    "en": "MATSU",
+    "en": "SAKURA",
     "ja": "MATSU "
   },
   "room_type_localized": {
@@ -201,7 +201,7 @@
   },
   "order": 3,
   "meta_title_localized": {
-    "en": "Matsu - Semi Double Bed Pod in Tokyo | Hotel Zen Tokyo",
+    "en": "Sakura - Semi Double Bed Pod in Tokyo | Hotel Zen Tokyo",
     "ja": "hotel zen tokyo | 客室紹介 - matsu - "
   },
   "meta_description_localized": {

@@ -1,6 +1,6 @@
 {
   "amenities_access_facilities_localized": {
-    "en": "<ul>\n<li>Locker for big luggage&nbsp;(on the same floor)&nbsp;</li>\n<li>Coin laundry</li>\n<li>Bar / cafe \"NAME\"</li>\n<li>Work &amp; study lounge</li>\n<li>Communal shower &amp; bathrooms</li>\n</ul>",
+    "en": "<ul>\n<li>Locker for big luggage&nbsp;(on the same floor)&nbsp;</li>\n<li>Coin laundry</li>\n<li>Bar / cafe</li>\n<li>Work &amp; study lounge</li>\n<li>Communal shower &amp; bathrooms</li>\n</ul>",
     "ja": "・荷物用個別ロッカー（同フロア・カプセル外\n・共用シャワー・バスルーム\n・コインランドリー \n・ワーク・スタディラウンジ ・バー・カフェ"
   },
   "image": {
@@ -93,7 +93,7 @@
     "ja": "https://hotels.cloudbeds.com/ja/reservation/yvrDGL"
   },
   "title_localized": {
-    "en": "ASA - DELUXE ROOM TYPE A ",
+    "en": "ASA - CORNER POD",
     "ja": "ASA - DELUXE ROOM TYPE A"
   },
   "short_info_localized": {
@@ -121,12 +121,12 @@
     "ja": "ASA"
   },
   "room_type_localized": {
-    "en": " DELUXE ROOM TYPE A ",
+    "en": "CORNER POD",
     "ja": "DELUXE ROOM TYPE A"
   },
   "order": 4,
   "meta_title_localized": {
-    "en": "Asa - Deluxe Room Type A in Tokyo | Hotel Zen Tokyo",
+    "en": "Asa - Corner Pod in Tokyo | Hotel Zen Tokyo",
     "ja": "こちらの各部屋紹介だけファーストキャビン 参考"
   },
   "meta_description_localized": {
