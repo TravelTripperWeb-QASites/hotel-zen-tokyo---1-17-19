@@ -2,6 +2,27 @@
   "name": "Rooms",
   "photos": [
     {
+      "name": "WASHI SINGLE TOP",
+      "file_name": "WASHI SINGLE TOP.jpg",
+      "url": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074743/WASHI_SINGLE_TOP.jpg",
+      "tags": "",
+      "description": "",
+      "date_added": "2018-10-29-074743",
+      "file_type": "image/jpeg",
+      "width": 1693,
+      "height": 519,
+      "file_size": 283491,
+      "url_large": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074743/large_WASHI_SINGLE_TOP.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074743/medium_WASHI_SINGLE_TOP.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074743/small_WASHI_SINGLE_TOP.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074743/xsmall_WASHI_SINGLE_TOP.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074743/thumb_WASHI_SINGLE_TOP.jpg",
+      "git_file_name": "_assets/image_data/WASHI-SINGLE-TOP.json",
+      "path": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074743/WASHI_SINGLE_TOP.jpg",
+      "alt": "WASHI SINGLE TOP",
+      "caption": "aoi - single bed pod"
+    },
+    {
       "name": "New Premium Room L 1030",
       "file_name": "New Premium Room L 1030.jpg",
       "url": "//cdn.traveltripper.io/site-assets/32_913_20746/media/2018-10-30-080919/New_Premium_Room_L_1030.jpg",
@@ -105,27 +126,6 @@
       "path": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074322/WASHI_SD.jpg",
       "alt": "WASHI SD",
       "caption": "fuji - semidouble bed pod"
-    },
-    {
-      "name": "WASHI SINGLE TOP",
-      "file_name": "WASHI SINGLE TOP.jpg",
-      "url": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074743/WASHI_SINGLE_TOP.jpg",
-      "tags": "",
-      "description": "",
-      "date_added": "2018-10-29-074743",
-      "file_type": "image/jpeg",
-      "width": 1693,
-      "height": 519,
-      "file_size": 283491,
-      "url_large": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074743/large_WASHI_SINGLE_TOP.jpg",
-      "url_medium": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074743/medium_WASHI_SINGLE_TOP.jpg",
-      "url_small": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074743/small_WASHI_SINGLE_TOP.jpg",
-      "url_xsmall": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074743/xsmall_WASHI_SINGLE_TOP.jpg",
-      "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074743/thumb_WASHI_SINGLE_TOP.jpg",
-      "git_file_name": "_assets/image_data/WASHI-SINGLE-TOP.json",
-      "path": "//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-074743/WASHI_SINGLE_TOP.jpg",
-      "alt": "WASHI SINGLE TOP",
-      "caption": "aoi - single bed pod"
     }
   ],
   "description": ""
