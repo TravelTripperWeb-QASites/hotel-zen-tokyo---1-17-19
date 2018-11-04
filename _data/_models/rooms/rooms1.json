@@ -1,6 +1,6 @@
 {
   "amenities_access_facilities_localized": {
-    "en": "<ul>\n<li>Locker for big luggage&nbsp;(on the same floor)&nbsp;</li>\n<li>Coin laundry</li>\n<li>Bar / cafe \"NAME\"</li>\n<li>Work &amp; study lounge</li>\n<li>Communal shower &amp; bathrooms</li>\n</ul>",
+    "en": "<ul>\n<li>Locker for big luggage&nbsp;(on the same floor)&nbsp;</li>\n<li>Coin laundry</li>\n<li>Bar / cafe</li>\n<li>Work &amp; study lounge</li>\n<li>Communal shower &amp; bathrooms</li>\n</ul>",
     "ja": "・荷物用個別ロッカー（同フロア・カプセル外\n・共用シャワー・バスルーム\n・コインランドリー \n・ワーク・スタディラウンジ ・バー・カフェ"
   },
   "image": {
@@ -87,13 +87,13 @@
       "caption": ""
     }
   ],
-  "url_friendly_name": "kiku-premiere-pod-room",
+  "url_friendly_name": "kiku-deluxe-corner-pod",
   "book_room_localized": {
     "en": "https://hotels.cloudbeds.com/ja/reservation/yvrDGL",
     "ja": "https://hotels.cloudbeds.com/ja/reservation/yvrDGL"
   },
   "title_localized": {
-    "en": "KIKU - PREMIERE ROOM TYPE B",
+    "en": "KIKU - DELUXE CORNER POD",
     "ja": "KIKU - PREMIERE ROOM TYPE B"
   },
   "short_info_localized": {
@@ -121,12 +121,12 @@
     "ja": "ASA"
   },
   "room_type_localized": {
-    "en": "PREMIERE ROOM TYPE B",
+    "en": "DELUXE CORNER POD",
     "ja": "DELUXE ROOM TYPE A"
   },
   "order": 5,
   "meta_title_localized": {
-    "en": "Kiku - Premiere Room Type B in Tokyo | Hotel Zen Tokyo",
+    "en": "Kiku - Deluxe Corner Pod in Tokyo | Hotel Zen Tokyo",
     "ja": "hotel zen tokyo | 客室紹介 - kiku - "
   },
   "meta_description_localized": {
