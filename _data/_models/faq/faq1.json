@@ -43,14 +43,14 @@
         "answer": "<p>Yes. We take credit cards online and at the front desk.</p>"
       },
       {
-        "question": "Cancellation policy? ",
+        "question": "What is your cancellation policy? ",
         "question_id": "cancellation",
-        "answer": "<p>Lorem ipsum</p>"
+        "answer": "<p>Please check back for updates!&nbsp;</p>"
       },
       {
         "question": "Can I leave my luggage before check-in or check-out? ",
         "question_id": "luggage",
-        "answer": "<p>Yes we'll keep it in our storage</p>"
+        "answer": "<p>Yes! We'll keep it in our storage.&nbsp;</p>"
       }
     ],
     "ja": [
