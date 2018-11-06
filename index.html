@@ -43,7 +43,7 @@ meta_tags:
     </div>
     <div class="carousel-inner" role="tablist">
       {% for banner in banners %}
-        <div class="carousel-item bg-cover {% if forloop.first %}active{% endif %}" style="background-image: url('{{ banner.url_large }}');" role="option">
+        <div class="carousel-item bg-cover {% if forloop.first %}active{% endif %}" style="background-image: url('{{ banner.url }}');" role="option">
         </div>
       {% endfor %}
     </div>
@@ -176,7 +176,7 @@ meta_tags:
     <div class="content">
 
       <!-- Can be hidden in mobile -->
-      <div class="image-wrap bg-center overlap m-hide" style="background-image: url('{{ pageimages[0].home_dining[1].url_medium }}');"></div>
+      <div class="image-wrap bg-center m-hide" style="background-image: url('{{ pageimages[0].home_dining[1].url_medium }}');"></div>
 
       <div class="content-wrap">
         {% regionblock cafe_title_subtitle, type:header %}
