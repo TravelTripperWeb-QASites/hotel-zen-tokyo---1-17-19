@@ -9,11 +9,5 @@
     "type": "image",
     "multiple": true,
     "required": true
-  },
-  "imageja": {
-    "label": "Banner Image for JA",
-    "type": "image",
-    "multiple": true,
-    "required": true
   }
 }
