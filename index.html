@@ -21,11 +21,8 @@ meta_tags:
 {% endif %}
 <!--Home carousel banner here -->
 {% assign homebanner = site.data._models.home-banner %}
-{% if site.active_lang == 'ja' %}
-  {% assign banners = homebanner[0].imageja %}
- {% else %}
-  {% assign banners = homebanner[0].image %}
- {% endif %}
+{% assign banners = homebanner[0].image %}
+
 <section class="banner">
   <div id="home-carousel" class="carousel slide" data-ride="carousel">
     <div class="indicators-control">
