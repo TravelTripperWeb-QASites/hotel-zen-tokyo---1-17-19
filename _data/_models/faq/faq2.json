@@ -4,7 +4,7 @@
       {
         "question": "What is the difference between room options?",
         "question_id": "roomoptions",
-        "answer": "<p>Room options vary depending on the size of bed (single or semidouble) and general room size. For details please refer to ROOMS (link).</p>"
+        "answer": "<p>Room options vary depending on the size of bed (single or semidouble) and general room size. For details please refer to the ROOMS section.&nbsp;</p>"
       },
       {
         "question": "Are there rooms for more than one person?",
@@ -24,12 +24,12 @@
       {
         "question": "Does the room come with a lock?",
         "question_id": "lock",
-        "answer": "<p>You can lock the room door when leaving the pod (e.g., you can lock your belogingings in the pod) but you can't lock your door when you're in the pod. This is according to the capsule hotel regulations. The pod comes with a safe for locking your valuables and you'll also get a private locker to lock up all other belongings.</p>"
+        "answer": "<p>Unfortunately no. Due to regulations capsule hotels do not come with door locks.&nbsp;The pod comes with a safe for locking your valuables and you'll also get a private locker to lock up all other belongings.</p>"
       },
       {
         "question": "Is there a safe? ",
         "question_id": "safe",
-        "answer": "<p>Yes all rooms comes with a safe for you to leave your valuables</p>"
+        "answer": "<p>Yes all rooms comes with a safe for you to leave your valuables.</p>"
       },
       {
         "question": "Where can I leave my luggage? ",
