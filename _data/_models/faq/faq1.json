@@ -57,12 +57,12 @@
       {
         "question": "チェックイン時間について",
         "question_id": "checkin",
-        "answer": "<p><span style=\"color: #333333; font-family: Roboto, sans-serif;\"><span style=\"font-size: 13px;\">1-5部屋単位の予約の場合：</span></span>２日前までは予約キャンセル料無料。２日以内の場合は全額いただいております。<br style=\"box-sizing: border-box; color: #333333; font-family: Roboto, sans-serif; font-size: 13px;\" /><br style=\"box-sizing: border-box; color: #333333; font-family: Roboto, sans-serif; font-size: 13px;\" />6-10部屋単位の予約の場合：14日前までは予約キャンセル料無料。14日以内の場合は全額いただいております。</p>\n<p>11部屋以上の予約の場合：予約成立後のキャンセルは全て全額いただいております。</p>"
+        "answer": "<p>チェックイン時間は午後４時以降となっております。</p>"
       },
       {
         "question": "チェックアウト時間について",
         "question_id": "checkout",
-        "answer": ""
+        "answer": "<p>チェックイン時間は午後４時以降となっております。</p>"
       },
       {
         "question": "アーリーチェックインについて",
