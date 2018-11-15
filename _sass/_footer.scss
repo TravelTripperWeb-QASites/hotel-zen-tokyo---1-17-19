@@ -114,6 +114,9 @@ footer {
     .social-icons {
       margin-bottom: 10px;
       text-align: center;
+      @include media-breakpoint-up(lg) {
+        width: 208px;
+      }
       a {
         color: $grey;
         &:hover {
@@ -136,6 +139,17 @@ footer {
 
       @include media-breakpoint-up(lg) {
         text-align: right;
+      }
+    }
+
+    .credit-info {
+      padding-top: 10px;
+      text-align: center;
+      @include media-breakpoint-up(lg) {
+        padding-top: 0;
+      }
+      img {
+        vertical-align: baseline;
       }
     }
   }
