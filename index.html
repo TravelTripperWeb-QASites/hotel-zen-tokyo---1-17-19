@@ -56,11 +56,9 @@ meta_tags:
 
 <!--About content here -->
 {% assign pageimages = site.data._models.page-images %}
-
-<section class="twocol">
-  <div class="twocol-row">
-    <div class="content">
-      <div class="content-wrap">
+<section class="content-grid-home">
+  <div class="content-grid-home__content">
+    <div class="content-wrap">
         {% regionblock about_hotel_subtitle, type:header %}
           <h4 tabindex="0">About Hotel Zen Tokyo</h4>
         {% endregionblock %}
@@ -71,21 +69,19 @@ meta_tags:
         <p tabindex="0">Hotel Zen Tokyo's guest experience is crafted with the spirit of Japanese zen minimalism in mind. We have designed the most modern, compact rendition of traditional Japanese architecture in hopes to provide our guests with an opportunity to experience Japan to the fullest, with comfort, and at reasonable prices. Travellers enjoy a fusion of efficient capsule accommodations with authentic traditional design - in essence, a modern and urban ryokan experience in the heart of Tokyo.</p>
         {% endregionblock %}
       </div>
-      <!-- <div class="intro-btn-holder">
-        {% regionblock about_hotel_link, type:html %}
-        <a class="primary-btn" href="#"><span>{% t 'discover_more' %}</span><i class="fas fa-angle-right"></i></a>
-        {% endregionblock %}
-      </div> -->
-
-      <!-- Can be hidden in mobile -->
-      <div class="image-wrap bg-bottom m-hide" style="background-image: url('{{ pageimages[0].home_about[0].url_medium }}');"></div>
-    </div>
-
-    <!-- Can be hidden in mobile -->
-    <div class="image image-tall bg-bottom m-hide" style="background-image: url('{{ pageimages[0].home_about[1].url_medium }}');"></div>
-
-    <!-- Carousel for Mobile  -->
-    <div id="about-carousel" class="carousel slide mobile-carousel" data-ride="carousel">
+  </div>
+  <div class="content-grid-home__image--large m-hide">
+    {% regionblock about_hotel_image_large, type:image %}
+      <img src="//cdn.traveltripper.io/site-assets/32_913_20406/media/2018-10-29-073924/medium_%E6%96%B0%E5%A4%96%E8%A3%85Atorimu.jpg" class="objectfit">
+    {% endregionblock %}
+  </div>
+  <div class="content-grid-home__image--small m-hide">
+    {% regionblock about_hotel_image_large, type:image %}
+      <img src="//cdn.traveltripper.io/site-assets/32_913_20746/media/2018-10-30-080919/medium_New_Premium_Room_L_1030.jpg" class="objectfit">
+    {% endregionblock %}
+  </div>
+  <!-- Carousel for Mobile  -->
+  <div id="about-carousel" class="carousel slide mobile-carousel" data-ride="carousel">
       <div class="indicators-control">
         <ol class="carousel-indicators">
           {% for pageimage in pageimages[0].home_about | limit: 2 %}
@@ -98,7 +94,6 @@ meta_tags:
         <div class="carousel-item bg-cover" role="option" style="background-image: url('{{ pageimages[0].home_about[2].url_medium }}');"></div>
       </div>
     </div>
-  </div>
 </section>
 
 <!--Room Location intro here -->
