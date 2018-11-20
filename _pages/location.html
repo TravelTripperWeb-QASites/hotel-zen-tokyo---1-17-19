@@ -32,71 +32,59 @@ meta_tags:
 <!--About content here -->
 {% assign pageimages = site.data._models.page-images %}
 
-<section class="twocol">
-  <div class="twocol-row">
-    <div class="content">
-      <div class="content-wrap" tabindex="0">
-        {% regionblock ningyocho_tagline, type:header %}
-          <h4>Authentic Japan in Modern Tokyo</h4>
-        {% endregionblock %}
-        {% regionblock ningyocho_title, type:header %}
-          <h2>Nihombashi Ningyocho</h2>
-        {% endregionblock %}
-        {% regionblock ningyocho_detail, type:html %}
-          <p>Our hotel is mere steps away from Ningyocho Station, which offers direct access to both of Tokyo's airports and the city's most exciting destinations. The Ningyocho/Nihonmbashi neighborhood is a historically rich district within Tokyo that has retained much of its traditional charm, architecture and experiences. Take a stroll around the hotel and enjoy some of Tokyo's oldest shops and local foods. </p>
-        {% endregionblock %}
-      </div>
-      <!-- <div class="intro-btn-holder">
-        {% regionblock contact_url, type:html %}
-          <a class="primary-btn" href="{{ lang_url }}/contact/"><span>Contact Us</span><i class="fas fa-angle-right"></i></a>
-        {% endregionblock %}
-      </div> -->
+
+<section class="content-grid-location">
+  <div class="content-grid-location__content">
+    <div class="content-wrap">
+      {% regionblock ningyocho_tagline, type:header %}
+        <h4>Authentic Japan in Modern Tokyo</h4>
+      {% endregionblock %}
+      {% regionblock ningyocho_title, type:header %}
+        <h2>Nihombashi Ningyocho</h2>
+      {% endregionblock %}
+      {% regionblock ningyocho_detail, type:html %}
+        <p>Our hotel is mere steps away from Ningyocho Station, which offers direct access to both of Tokyo's airports and the city's most exciting destinations. The Ningyocho/Nihonmbashi neighborhood is a historically rich district within Tokyo that has retained much of its traditional charm, architecture and experiences. Take a stroll around the hotel and enjoy some of Tokyo's oldest shops and local foods. </p>
+      {% endregionblock %}
     </div>
-    <!-- Can be hidden in mobile -->
-    <div class="image bg-bottom m-hide" style="background-image: url('/assets/images/location/mifune.jpg');"></div>
   </div>
-</section>
+  <div class="content-grid-location__image content-grid-location__image--1 m-hide">
+    {% regionblock location_image_one, type:image %}
+      <img src="/assets/images/location/mifune.jpg" class="objectfit">
+    {% endregionblock %}
+  </div>
+  <div class="content-grid-location__image content-grid-location__image--2 m-hide">
+    {% regionblock location_image_two, type:image %}
+      <img src="/assets/images/location/loc-pic-2.jpg" class="objectfit" alt="Ningyocho neighborhood">
+    {% endregionblock %}
+  </div>
+  <div class="content-grid-location__image content-grid-location__image--3 m-hide">
+    {% regionblock location_image_three, type:image %}
+      <img src="/assets/images/location/loc-pic-3.jpg" class="objectfit" alt="Ningyocho neighborhood">
+    {% endregionblock %}
+  </div>
+  <div class="content-grid-location__image content-grid-location__image--4 m-hide">
+    {% regionblock location_image_four, type:image %}
+      <img src="/assets/images/location/loc-pic-4.jpg" class="objectfit" alt="Ningyocho neighborhood">
+    {% endregionblock %}
+  </div>
 
-<!--Editable Image collage -->
-<section class="image-collage">
-  <div class="wrapper">
-    <!-- Can be hidden in mobile -->
-    <div class="item-half m-hide">
-      {% regionblock location_image_one, type:image %}
-        <img src="/assets/images/location/loc-pic-2.jpg" alt="Ningyocho neighborhood">
-      {% endregionblock %}
-    </div>
-    <!-- Can be hidden in mobile -->
-    <div class="item-onefourth m-hide">
-      {% regionblock location_image_two, type:image %}
-        <img src="/assets/images/location/loc-pic-3.jpg" alt="Ningyocho neighborhood">
-      {% endregionblock %}
-    </div>
-    <!-- Can be hidden in mobile -->
-    <div class="item-onefourth m-hide">
-      {% regionblock location_image_three, type:image %}
-        <img src="/assets/images/location/loc-pic-4.jpg" alt="Ningyocho neighborhood">
-      {% endregionblock %}
-    </div>
-
-    <!-- Carousel for Mobile  -->
-    <div id="location-carousel" class="carousel slide mobile-carousel" data-ride="carousel">
-      <div class="indicators-control">
-        <ol class="carousel-indicators">
-          {% for pageimage in pageimages[0].location | limit: 4 %}
-            <li data-target="#location-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
-          {% endfor %}
-        </ol>
-      </div>
-      <div class="carousel-inner" role="tablist">
+  <!-- Carousel for Mobile  -->
+  <div id="location-carousel" class="carousel slide mobile-carousel" data-ride="carousel">
+    <div class="indicators-control">
+      <ol class="carousel-indicators">
         {% for pageimage in pageimages[0].location | limit: 4 %}
-        <div class="carousel-item bg-cover {% if forloop.first %}active{% endif %}" role="option" style="background-image: url('{{ pageimage.url_medium }}');"></div>
+          <li data-target="#location-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
         {% endfor %}
-      </div>
+      </ol>
     </div>
-
+    <div class="carousel-inner" role="tablist">
+      {% for pageimage in pageimages[0].location | limit: 4 %}
+      <div class="carousel-item bg-cover {% if forloop.first %}active{% endif %}" role="option" style="background-image: url('{{ pageimage.url_medium }}');"></div>
+      {% endfor %}
+    </div>
   </div>
 </section>
+
 
 <!-- Directions section -->
 <section class="directions" id="findus">
