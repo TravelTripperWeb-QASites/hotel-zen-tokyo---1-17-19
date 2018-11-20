@@ -167,13 +167,6 @@
   h2 {
     margin-bottom: 25px;
   }
-
-  img {
-    object-fit: cover;
-    font-family: 'object-fit: cover;';
-    height: 100%;
-    width: 100%;
-  }
 }
 
 @include media-breakpoint-up(md) {
@@ -183,6 +176,13 @@
     grid-template-columns: repeat(2, minmax(200px, 1fr));
     grid-template-rows: repeat(2, minmax(50%, 450px));
     max-height: 925px;
+
+    img {
+      object-fit: cover;
+      font-family: 'object-fit: cover;';
+      height: 100%;
+      width: 100%;
+    }
 
     .content-grid-home__content {
       grid-column: 1 / 2;
