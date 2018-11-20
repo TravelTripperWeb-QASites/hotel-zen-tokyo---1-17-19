@@ -1,4 +1,7 @@
-<section class="inner-banner blog-banner text-center" style="background-image:url('/assets/images/blog/blog-banner.jpg');">
+<section class="inner-banner blog-banner text-center banner--editable" style="background-image: url({{ site.data._regions.en._pages.blog.blog_banner[0].content.url_large }}">
+  {% regionblock blog_banner, type:image %}
+    <img src="/assets/images/blog/blog-banner.jpg">
+  {% endregionblock %}
   <div class="inner-banner-content">
     <h3 class="lowercase" tabindex="0">Blog</h3>
   </div>

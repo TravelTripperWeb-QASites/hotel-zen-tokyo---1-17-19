@@ -141,6 +141,9 @@ body:hover .visually-hidden button {
   width: 100%;
 }
 
-.invisible {
-  visibility: hidden;
+.banner--editable {
+  > .tt-region {
+    visibility: hidden;
+    position: absolute;
+  }
 }

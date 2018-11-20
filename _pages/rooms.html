@@ -17,7 +17,10 @@ meta_tags:
 ---
 
 <!-- Rooms Banner -->
-<section class="inner-banner text-center bg-cover" style="background-image:url('/assets/images/rooms/rooms-banner-2.jpg');">
+<section class="inner-banner text-center bg-cover banner--editable" style="background-image: url({{ site.data._regions.en._pages.rooms.rooms_banner[0].content.url_large }}">
+  {% regionblock rooms_banner, type:image %}
+    <img src="/assets/images/rooms/rooms-banner-2.jpg">
+  {% endregionblock %}
   <div class="inner-banner-content">
     {% regionblock rooms_banner_heading, type:header %}
       <h1 tabindex="0">{% t 'rooms_stay' %}</h1>
