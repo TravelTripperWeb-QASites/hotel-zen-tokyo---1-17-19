@@ -20,7 +20,10 @@ meta_tags:
  {% assign lang_url = "/ja" %}
 {% endif %}
 <!-- Location page banner -->
-<section class="banner-fullscreen" style="background-image:url('/assets/images/location/location-banner.jpg')">
+<section class="banner-fullscreen" style="background-image: url({{ site.data._regions.en._pages.location.location_banner[0].content.url_medium }});">
+  {% regionblock location_banner, type:image %}
+    <img src="/assets/images/location/mifune.jpg" class="invisible">
+  {% endregionblock %}
   <div class="wrapper">
     {% regionblock location_title, type:header %}
       <h1 class="lowercase" tabindex="0">{% t 'location' %}</h1>
