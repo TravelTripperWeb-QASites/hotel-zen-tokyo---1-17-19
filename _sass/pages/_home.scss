@@ -250,6 +250,13 @@
       height: 100%;
     }
   }
+
+  img {
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+    height: 100%;
+    width: 100%;
+  }
 }
 
 .image--align-center {
