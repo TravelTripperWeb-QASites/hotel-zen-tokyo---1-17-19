@@ -80,27 +80,12 @@ meta_tags:
       <img src="//cdn.traveltripper.io/site-assets/32_913_20746/media/2018-10-30-080919/medium_New_Premium_Room_L_1030.jpg">
     {% endregionblock %}
   </div>
-
-  <!-- Carousel for Mobile  -->
-  <div id="about-carousel" class="carousel slide mobile-carousel" data-ride="carousel">
-      <div class="indicators-control">
-        <ol class="carousel-indicators">
-          {% for pageimage in pageimages[0].home_about | limit: 2 %}
-            <li data-target="#about-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
-          {% endfor %}
-        </ol>
-      </div>
-      <div class="carousel-inner" role="tablist">
-        <div class="carousel-item bg-cover active" role="option" style="background-image: url('{{ pageimages[0].home_about[0].url_medium }}');"></div>
-        <div class="carousel-item bg-cover" role="option" style="background-image: url('{{ pageimages[0].home_about[2].url_medium }}');"></div>
-      </div>
-    </div>
 </section>
 
 <!--Room Location intro here -->
 <section class="twocol">
   <div class="twocol-row">
-    <div class="image image--objectwrap m-hide">
+    <div class="image image--objectwrap">
       {% regionblock home_room_image, type:image %}
         <img src="//cdn.traveltripper.io/site-assets/32_913_20892/media/2018-11-05-121143/medium_Photo__3.jpg">
       {% endregionblock %}
@@ -157,15 +142,13 @@ meta_tags:
   <div id="dining-carousel" class="carousel slide mobile-carousel" data-ride="carousel">
     <div class="indicators-control">
       <ol class="carousel-indicators">
-        {% for pageimage in pageimages[0].home_dining | limit: 2 %}
-          <li data-target="#dining-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
-        {% endfor %}
+        <li data-target="#dining-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#dining-carousel" data-slide-to="1"></li>
       </ol>
     </div>
     <div class="carousel-inner" role="tablist">
-      {% for pageimage in pageimages[0].home_dining | limit: 2 %}
-      <div class="carousel-item bg-cover {% if forloop.first %}active{% endif %}" role="option" style="background-image: url('{{ pageimage.url_medium }}');"></div>
-      {% endfor %}
+      <div class="carousel-item bg-cover active" role="option" style="background-image: url('{{ site.data.regions.en.index.dining_image_large.content.url_medium }}');"></div>
+      <div class="carousel-item bg-cover" role="option" style="background-image: url('{{ site.data.regions.en.index.dining_image_small.content.url_medium }}');"></div>
     </div>
   </div>
 
