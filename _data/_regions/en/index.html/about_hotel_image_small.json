@@ -1,24 +1,23 @@
 [
   {
     "content": {
-      "name": "New Premium Room L 1030 trimmed",
-      "file_name": "New Premium Room L 1030 trimmed.jpg",
-      "url": "//cdn.traveltripper.io/site-assets/32_913_20746/media/2018-10-30-081007/New_Premium_Room_L_1030_trimmed.jpg",
+      "name": "medium_New_Premium_Room_L_1030",
+      "file_name": "medium_New_Premium_Room_L_1030.jpg",
+      "url": "//cdn.traveltripper.io/site-assets/32_913_21251/media/2018-11-20-134409/medium_New_Premium_Room_L_1030.jpg",
       "tags": "",
       "description": "",
-      "date_added": "2018-10-30-081007",
+      "date_added": "2018-11-20-134409",
       "file_type": "image/jpeg",
-      "width": 948,
-      "height": 702,
-      "file_size": 259230,
-      "url_large": "//cdn.traveltripper.io/site-assets/32_913_20746/media/2018-10-30-081007/large_New_Premium_Room_L_1030_trimmed.jpg",
-      "url_medium": "//cdn.traveltripper.io/site-assets/32_913_20746/media/2018-10-30-081007/medium_New_Premium_Room_L_1030_trimmed.jpg",
-      "url_small": "//cdn.traveltripper.io/site-assets/32_913_20746/media/2018-10-30-081007/small_New_Premium_Room_L_1030_trimmed.jpg",
-      "url_xsmall": "//cdn.traveltripper.io/site-assets/32_913_20746/media/2018-10-30-081007/xsmall_New_Premium_Room_L_1030_trimmed.jpg",
-      "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_20746/media/2018-10-30-081007/thumb_New_Premium_Room_L_1030_trimmed.jpg",
-      "git_file_name": "_assets/image_data/New-Premium-Room-L-1030-trimmed.json",
-      "path": "//cdn.traveltripper.io/site-assets/32_913_20746/media/2018-10-30-081007/New_Premium_Room_L_1030_trimmed.jpg",
-      "alt": "New Premium Room L 1030 trimmed"
+      "width": 992,
+      "height": 558,
+      "file_size": 213812,
+      "url_large": "//cdn.traveltripper.io/site-assets/32_913_21251/media/2018-11-20-134409/large_medium_New_Premium_Room_L_1030.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/32_913_21251/media/2018-11-20-134409/medium_medium_New_Premium_Room_L_1030.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/32_913_21251/media/2018-11-20-134409/small_medium_New_Premium_Room_L_1030.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/32_913_21251/media/2018-11-20-134409/xsmall_medium_New_Premium_Room_L_1030.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_21251/media/2018-11-20-134409/thumb_medium_New_Premium_Room_L_1030.jpg",
+      "path": "//cdn.traveltripper.io/site-assets/32_913_21251/media/2018-11-20-134409/medium_New_Premium_Room_L_1030.jpg",
+      "alt": "medium_New_Premium_Room_L_1030"
     },
     "_template": "image"
   }
