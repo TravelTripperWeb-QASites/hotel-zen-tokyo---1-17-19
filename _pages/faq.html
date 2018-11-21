@@ -17,7 +17,10 @@ meta_tags:
 ---
 
 <!-- FAQs Banner -->
-<section class="inner-banner text-center bg-cover mb-5" style="background-image:url('/assets/images/careers/careers-hero.jpg');">
+<section class="inner-banner text-center bg-cover mb-5 banner--editable" style="background-image: url({{ site.data._regions.en._pages.faq.faq_banner[0].content.url_large }}">
+  {% regionblock faq_banner, type:image %}
+    <img src="/assets/images/careers/careers-hero.jpg">
+  {% endregionblock %}
   <div class="inner-banner-content">
     {% regionblock faq_heading, type:header %}
       <h1 tabindex="0">{% t 'faq' %}</h1>

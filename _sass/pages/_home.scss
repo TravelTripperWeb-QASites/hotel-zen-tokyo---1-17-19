@@ -112,9 +112,9 @@
       max-width: 555px;
       margin: 0 auto;
       padding: 50px 20px 20px;
-      @include media-breakpoint-up(md) {
-        padding: 100px 15px 76px;
-      }
+      // @include media-breakpoint-up(md) {
+      //   padding: 100px 15px 76px;
+      // }
       h4 {
         margin-bottom: 12px;
         color: $black;
@@ -155,5 +155,113 @@
         height: auto;
       }
     }
+  }
+}
+
+.content-grid-home__content {
+  h4 {
+    margin-bottom: 12px;
+    color: #000;
+  }
+
+  h2 {
+    margin-bottom: 25px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .content-grid-home {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, minmax(50%, 450px));
+
+    img {
+      object-fit: cover;
+      font-family: 'object-fit: cover;';
+      height: 100%;
+      width: 100%;
+    }
+
+    .content-grid-home__content {
+      grid-column: 1 / 2;
+      grid-row: 1;
+      display: flex;
+      align-items: center;
+
+      .content-wrap {
+        padding: 30px;
+      }
+    }
+
+    .content-grid-home__image--large {
+      grid-column: 2 / 3;
+      grid-row: 1/3;
+
+      > div {
+        height: 100%;
+        > div {
+          height: 100%;
+        }
+      }
+    }
+
+    .content-grid-home__image--small {
+      grid-column: 1;
+      grid-row: 2;
+
+      > div {
+        height: 100%;
+
+        > div {
+          height: 100%;
+        }
+      }
+    }
+
+    &.large-image-left {
+      .content-grid-home__content {
+        grid-column: 2 / 3;
+      }
+      .content-grid-home__image--large {
+        grid-column: 1 / 2;
+      }
+      .content-grid-home__image--small {
+        grid-column: 2;
+      }
+    }
+  }
+}
+
+.content-grid-home__content {
+  .content-wrap {
+    max-width: 555px;
+    margin: 0 auto;
+    padding: 50px 20px 20px;
+  }
+}
+
+.image--objectwrap {
+  > div {
+    height: 100%;
+
+    > div {
+      height: 100%;
+    }
+  }
+
+  img {
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.image--align-center {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 100%;
   }
 }

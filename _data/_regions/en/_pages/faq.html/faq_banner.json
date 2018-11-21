@@ -1,0 +1,24 @@
+[
+  {
+    "content": {
+      "name": "faq-hero",
+      "file_name": "faq-hero.jpg",
+      "url": "//cdn.traveltripper.io/site-assets/32_913_21251/media/2018-11-20-190224/faq-hero.jpg",
+      "tags": "",
+      "description": "",
+      "date_added": "2018-11-20-190224",
+      "file_type": "image/jpeg",
+      "width": 1440,
+      "height": 344,
+      "file_size": 273359,
+      "url_large": "//cdn.traveltripper.io/site-assets/32_913_21251/media/2018-11-20-190224/large_faq-hero.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/32_913_21251/media/2018-11-20-190224/medium_faq-hero.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/32_913_21251/media/2018-11-20-190224/small_faq-hero.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/32_913_21251/media/2018-11-20-190224/xsmall_faq-hero.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_21251/media/2018-11-20-190224/thumb_faq-hero.jpg",
+      "path": "//cdn.traveltripper.io/site-assets/32_913_21251/media/2018-11-20-190224/faq-hero.jpg",
+      "alt": "faq-hero"
+    },
+    "_template": "image"
+  }
+]
