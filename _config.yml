@@ -10,7 +10,7 @@ email: contact@senrecube.com
 # Language Settings
 default_lang: 'en'
 languages: ['en','ja']
-exclude_from_localizations: ["assets", "CNAME"]
+exclude_from_localizations: ["assets/images","assets/js", "CNAME"]
 
 # Reading Files
 include:
