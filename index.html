@@ -8,6 +8,7 @@ meta_description_localized:
   ja: Hotel Zen Tokyoは「泊まれる茶室」ー各部屋を千利休の茶室にみたてた新しい形のカプセルホテルです。Hotel Zen Tokyoはただ寝るだけのカプセル体験ではなく、ミニマルに日本の文化を体験できる、まるで都会の旅館のような体験を提供します。
 permalink_localized:
   en: /
+  ja: /
 published_localized:
   en: true
   ja: true
@@ -17,6 +18,8 @@ meta_tags:
 
 {% if site.active_lang == "ja" %}
  {% assign lang_url = "/ja" %}
+{% else %}
+ {% assign lang_url = "/" %}
 {% endif %}
 <!--Home carousel banner here -->
 {% assign homebanner = site.data._models.home-banner %}
