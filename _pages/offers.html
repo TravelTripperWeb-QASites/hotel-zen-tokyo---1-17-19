@@ -1,0 +1,95 @@
+---
+layout: default
+title_localized:
+  en: Offers | Hotel Zen Tokyo
+  ja: Offers | Hotel Zen Tokyo
+meta_description_localized:
+  en: Offers
+  ja: Offers
+permalink_localized:
+  en: /offers/
+  ja: /offers/
+published_localized:
+  en: true
+  ja: true
+meta_tags:
+  robots:
+---
+
+<!-- Offers Banner -->
+<section class="page-banner text-center">
+  {% regionblock banner, type:image %}
+    <img src="/assets/images/offers/offers-banner.jpg">
+  {% endregionblock %}
+  <div class="inner-banner-content">
+    {% regionblock banner_heading, type:header %}
+      <h1 tabindex="0">{% t 'special_offers' %}</h1>
+    {% endregionblock %}
+  </div>
+</section>
+
+<!-- Offers listing -->
+<section class="offers">
+  <div class="offers__row">
+    <div class="offers__image">
+      <div class="offers__image__inner">
+        <img src="/assets/images/offers/offer1.jpg" alt="Offers">
+        <a class="primary-btn inverse" href="/rooms/"><span>{% t 'check_rate' %}</span><i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+    <div class="offers__content">
+      <div class="offers__content__inner">
+        <h2>Offer number one</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.</p>
+        <a class="primary-btn" href="/rooms/"><span>{% t 'view_offer' %}</span><i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="offers__row">
+    <div class="offers__image">
+      <div class="offers__image__inner">
+        <img src="/assets/images/offers/offer2.jpg" alt="Offers">
+        <a class="primary-btn inverse" href="/rooms/"><span>{% t 'check_rate' %}</span><i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+    <div class="offers__content">
+      <div class="offers__content__inner">
+        <h2>Offer number one</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.</p>
+        <a class="primary-btn" href="/rooms/"><span>{% t 'view_offer' %}</span><i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="offers__row">
+    <div class="offers__image">
+      <div class="offers__image__inner">
+        <img src="/assets/images/offers/offer3.jpg" alt="Offers">
+        <a class="primary-btn inverse" href="/rooms/"><span>{% t 'check_rate' %}</span><i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+    <div class="offers__content">
+      <div class="offers__content__inner">
+        <h2>Offer number one</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.</p>
+        <a class="primary-btn" href="/rooms/"><span>{% t 'view_offer' %}</span><i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="offers__row">
+    <div class="offers__image">
+      <div class="offers__image__inner">
+        <img src="/assets/images/offers/offer4.jpg" alt="Offers">
+        <a class="primary-btn inverse" href="/rooms/"><span>{% t 'check_rate' %}</span><i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+    <div class="offers__content">
+      <div class="offers__content__inner">
+        <h2>Offer number one</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.</p>
+        <a class="primary-btn" href="/rooms/"><span>{% t 'view_offer' %}</span><i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include forms/jotform/newsletter.html %}

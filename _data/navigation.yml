@@ -2,8 +2,14 @@ main_localized:
   en:
     - title: Rooms
       url: /rooms/
+    - title: Offers
+      url: /offers/
+    - title: Cafe Lounge
+      url: /cafe-lounge/
     - title: Location
       url: /location/
+    - title: Amenities
+      url: /amenities/
     - title: Gallery
       url: /gallery/
     - title: Blog
@@ -13,8 +19,14 @@ main_localized:
   ja:
     - title: 客室
       url: /ja/rooms/
+    - title: Offers
+      url: /ja/offers/
+    - title: Cafe Lounge
+      url: /ja/cafe-lounge/
     - title: ロケーション
       url: /ja/location/
+    - title: Amenities
+      url: /ja/amenities/
     - title: ギャラリー
       url: /ja/gallery/
     - title: ブログ
@@ -26,8 +38,14 @@ footer_left_localized:
   en:
     - title: Rooms
       url: /rooms/
+    - title: Offers
+      url: /offers/
+    - title: Cafe Lounge
+      url: /cafe-lounge/
     - title: Location
       url: /location/
+    - title: Amenities
+      url: /amenities/
     - title: Gallery
       url: /gallery/
     - title: Blog
@@ -37,8 +55,14 @@ footer_left_localized:
   ja:
     - title: 客室
       url: /ja/rooms/
+    - title: Offers
+      url: /ja/offers/
+    - title: Cafe Lounge
+      url: /ja/cafe-lounge/
     - title: ロケーション
       url: /ja/location/
+    - title: Amenities
+      url: /ja/amenities/
     - title: ギャラリー
       url: /ja/gallery/
     - title: ブログ
