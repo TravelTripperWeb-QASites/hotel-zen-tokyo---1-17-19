@@ -16,6 +16,25 @@ meta_tags:
   robots:
 ---
 
+<!-- Offers Banner -->
+<section class="page-banner text-center">
+    <img src="/assets/images/offers/offers-banner.jpg" alt="">
+  <div class="inner-banner-content">
+    <h1 tabindex="0">Offer number one</h1>
+  </div>
+</section>
+
+<!-- Offers Subnav -->
+<div class="inner-sub-nav text-center">
+  <ul>
+    <li><a href="" class="{% if page.url_friendly_name == room.url_friendly_name %} active{% endif %}">Offers</a></li>
+    <li><a href="" class="{% if page.url_friendly_name == room.url_friendly_name %} active{% endif %}">Offers</a></li>
+    <li><a href="" class="{% if page.url_friendly_name == room.url_friendly_name %} active{% endif %}">Offers</a></li>
+    <li><a href="" class="{% if page.url_friendly_name == room.url_friendly_name %} active{% endif %}">Offers</a></li>
+    <li><a href="" class="{% if page.url_friendly_name == room.url_friendly_name %} active{% endif %}">Offers</a></li>
+  </ul>
+</div>
+
 <section class="offer-details">
   <div class="offer-details__row">
     <div class="offer-details__image">
@@ -23,14 +42,14 @@ meta_tags:
     </div>
     <div class="offer-details__content">
       <div class="offer-details__content__inner">
-        <h2>Offer number one</h2>
-        <p>Valid until 08 May 2012</p>
+        <h2 tabindex="0">Offer number one</h2>
+        <p tabindex="0">Valid until 08 May 2012</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium. Mauris elit orci, ultricies id fermentum vel, porta et eros. Vestibulum condimentum lectus in convallis feugiat.</p>
         <div class="btn-holder">
           <a class="primary-btn" href="/rooms/"><span>{% t 'book_offer' %}</span><i class="fas fa-angle-right"></i></a>
         </div>
-        <div class="terms">Terms & Conditions</div>
-        <ul class="offer-details__content__list">
+        <div class="terms" tabindex="0">Terms & Conditions</div>
+        <ul class="offer-details__content__list" tabindex="0">
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.</li>
           <li>Mauris elit orci, ultricies id fermentum vel, porta et eros. Vestibulum condimentum lectus in convallis feugiat.</li>
         </ul>
@@ -40,5 +59,7 @@ meta_tags:
 </section>
 
 {% include stay-zen.html %}
+
+{% include more-offers.html %}
 
 {% include forms/jotform/newsletter.html %}

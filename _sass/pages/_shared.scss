@@ -37,9 +37,13 @@
 
 .page-banner {
   position: relative;
-  margin-bottom: 24px;
   @include media-breakpoint-up(sm) {
     height: 344px;
+  }
+  &:after {
+    @include absolute-position(0,0,0,0,auto,auto);
+    z-index: 1;
+    background-color: rgba($black, .3);
   }
   img {
     width: 100%;
@@ -51,6 +55,7 @@
   }
   .inner-banner-content {
     @include absolute-position(50%,0,auto,0,auto,auto);
+    z-index: 5;
     padding: 0 15px;
     text-align: center;
     -webkit-transform: translateY(-50%);
