@@ -32,6 +32,7 @@
 
 <script src="{{ '/assets/js/main.min.js' | absolute_url }}"></script>
 <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.3/ofi.min.js"></script>
 
 {% if page.url contains 'contact'%}
 <script src="/assets/js/jquery.validate.min.js"></script>
@@ -46,6 +47,15 @@
         }
     });
 
+
+
   });
 </script>
 {% endif %}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+      var $fitImages = $('.image--objectwrap img');
+      objectFitImages($fitImages);
+    });
+</script>
