@@ -64,7 +64,7 @@ nav {
       }
 
       .nav-link {
-        margin: 0 13px;
+        margin: 0 7px;
         padding: 10px 3px 12px;
         font-family: $header-font-family;
         font-size: $type-size-6;
@@ -77,6 +77,9 @@ nav {
 
         @include media-breakpoint-up(lg) {
           padding: 3px 3px 4px;
+        }
+        @include media-breakpoint-up(xl) {
+          margin: 0 13px;
         }
       }
 

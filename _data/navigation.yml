@@ -12,10 +12,10 @@ main_localized:
       url: /amenities/
     - title: Gallery
       url: /gallery/
-    - title: Blog
-      url: /blog/
-    - title: faq
-      url: /faq/
+    #- title: Blog
+    #  url: /blog/
+    #- title: faq
+    #  url: /faq/
   ja:
     - title: 客室
       url: /ja/rooms/
@@ -29,10 +29,10 @@ main_localized:
       url: /ja/amenities/
     - title: ギャラリー
       url: /ja/gallery/
-    - title: ブログ
-      url: /ja/blog/
-    - title: よくあるご質問
-      url: /ja/faq/
+    #- title: ブログ
+    #  url: /ja/blog/
+    #- title: よくあるご質問
+    #  url: /ja/faq/
 
 footer_left_localized:
   en:

@@ -26,6 +26,10 @@
 <!-- Bootstrap Select CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
 
+{% if page.url contains 'request-for-proposal' %}
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+{% endif %}
+
 {% if site.active_lang == "ja" %}
 <link rel="stylesheet" href="{{ '/ja/assets/css/main.css' | absolute_url }}">
 {% else %}

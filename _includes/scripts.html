@@ -33,6 +33,10 @@
 <script src="{{ '/assets/js/main.min.js' | absolute_url }}"></script>
 <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 
+{% if page.url contains 'request-for-proposal' %}
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+{% endif %}
+
 {% if page.url contains 'contact'%}
 <script src="/assets/js/jquery.validate.min.js"></script>
 <script type="text/javascript">
@@ -40,6 +44,21 @@
   $(document).ready(function () {
 
     $('#82610960182454').validate({
+
+        onfocusout: function(element) {
+            this.element(element);
+        }
+    });
+
+  });
+</script>
+{% elsif page.url contains 'request-for-proposal' %}
+<script src="/assets/js/jquery.validate.min.js"></script>
+<script type="text/javascript">
+//contact form validation
+  $(document).ready(function () {
+
+    $('#83295714553463').validate({
 
         onfocusout: function(element) {
             this.element(element);

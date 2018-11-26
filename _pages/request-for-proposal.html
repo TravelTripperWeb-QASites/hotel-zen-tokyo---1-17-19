@@ -1,0 +1,39 @@
+---
+layout: default
+title_localized:
+  en: Request for Proposal | Hotel Zen Tokyo
+  ja: Request for Proposal | Hotel Zen Tokyo
+meta_description_localized:
+  en: Offers
+  ja: Offers
+permalink_localized:
+  en: /request-for-proposal/
+  ja: /request-for-proposal/
+published_localized:
+  en: true
+  ja: true
+meta_tags:
+  robots:
+---
+
+<!-- Offers Banner -->
+<section class="page-banner text-center">
+  {% regionblock banner, type:image %}
+    <img src="/assets/images/cafe-lounge/cafe-lounge-banner.jpg" alt="Cafe Lounge">
+  {% endregionblock %}
+  <div class="inner-banner-content">
+    {% regionblock banner_heading, type:header %}
+      <h1 tabindex="0">event space enquiry</h1>
+    {% endregionblock %}
+  </div>
+</section>
+
+<!-- RFP Form -->
+<section class="form-container rfp">
+  {% regionblock page_subtitle, type:header %}
+   <h2 tabindex="0">{% t 'rfp_headline' %}</h2>
+  {% endregionblock %}
+  {% include forms/jotform/rfp.html %}
+</section>
+
+{% include forms/jotform/newsletter.html %}
