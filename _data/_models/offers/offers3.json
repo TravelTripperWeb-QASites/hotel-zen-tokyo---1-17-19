@@ -24,11 +24,11 @@
     "alt": "Offer number one",
     "caption": ""
   },
-  "url_friendly_name": "offer-1",
-  "order": 1,
+  "url_friendly_name": "offer-3",
+  "order": 3,
   "title_localized": {
-    "en": "Offer number one",
-    "ja": "Offer number one"
+    "en": "Offer number three",
+    "ja": "Offer number three"
   },
   "meta_title_localized": {
     "en": "Offer number one | Hotel Zen Tokyo",

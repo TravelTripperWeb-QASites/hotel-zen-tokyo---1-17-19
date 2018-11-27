@@ -20,11 +20,10 @@ layout: default
 <!-- Offers Subnav -->
 <div class="inner-sub-nav text-center">
   <ul>
-    <li><a href="" class="{% if page.url_friendly_name == room.url_friendly_name %} active{% endif %}">Offers</a></li>
-    <li><a href="" class="{% if page.url_friendly_name == room.url_friendly_name %} active{% endif %}">Offers</a></li>
-    <li><a href="" class="{% if page.url_friendly_name == room.url_friendly_name %} active{% endif %}">Offers</a></li>
-    <li><a href="" class="{% if page.url_friendly_name == room.url_friendly_name %} active{% endif %}">Offers</a></li>
-    <li><a href="" class="{% if page.url_friendly_name == room.url_friendly_name %} active{% endif %}">Offers</a></li>
+    {% assign offers = site.data._models.offers %}
+    {% for offer in offers %}
+      <li><a href="/offers/{{ offer.url_friendly_name }}" class="{% if page.url_friendly_name == room.url_friendly_name %} active{% endif %}">{{ offer.title }}</a></li>
+    {% endfor %}
   </ul>
 </div>
 
@@ -36,16 +35,21 @@ layout: default
     <div class="offer-details__content">
       <div class="offer-details__content__inner">
         <h2 tabindex="0">{{ offer.title }}</h2>
-        <p tabindex="0">Valid until 08 May 2012</p>
+        {% if offer.offer_expiry %}
+          <p tabindex="0">Valid until {{ offer.offer_expiry | date: "%d %B %Y" }}</p>
+        {% endif %}
         {{ offer.long_description }}
         <div class="btn-holder">
           <a class="primary-btn" href="{{ offer.offer_url }}" target="_blank"><span>Book Offer</span><i class="fas fa-angle-right"></i></a>
         </div>
-        <div class="terms" tabindex="0">Terms & Conditions</div>
-        <ul class="offer-details__content__list" tabindex="0">
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.</li>
-          <li>Mauris elit orci, ultricies id fermentum vel, porta et eros. Vestibulum condimentum lectus in convallis feugiat.</li>
-        </ul>
+        {% if offer.terms_conditions %}
+          <div class="terms" tabindex="0">Terms & Conditions</div>
+          <ul class="offer-details__content__list" tabindex="0">
+            {% for tc in offer.terms_conditions %}
+            <li>{{ tc.terms }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
       </div>
     </div>
   </div>
