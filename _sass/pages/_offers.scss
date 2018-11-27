@@ -96,9 +96,10 @@
     }
 
     &__inner {
-      padding: 50px 15px;
+      padding: 30px 15px;
       @include media-breakpoint-up(lg) {
-        padding: 100px 85px 100px 100px;
+        max-width: 520px;
+        margin: 50px 85px 50px auto;
       }
 
       h2 {
@@ -157,6 +158,9 @@
     img {
       width: 100%;
       object-fit: cover;
+      @include media-breakpoint-up(md) {
+        min-height: 520px;
+      }
     }
   }
 }
@@ -249,7 +253,7 @@
       }
     }
   }
-  
+
   .btn-holder {
     padding-top: 40px;
     @include media-breakpoint-up(md) {

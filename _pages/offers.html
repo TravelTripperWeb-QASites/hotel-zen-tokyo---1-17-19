@@ -30,21 +30,24 @@ meta_tags:
 
 <!-- Offers listing -->
 <section class="offers">
+  {% assign offers = site.data._models.offers %}
+  {% for offer in offers %}
   <div class="offers__row">
     <div class="offers__image">
       <div class="offers__image__inner">
-        <img src="/assets/images/offers/offer1.jpg" alt="Offers">
-        <a class="primary-btn inverse" href="/rooms/"><span>{% t 'check_rate' %}</span><i class="fas fa-angle-right"></i></a>
+        <img src="{{ offer.image.url_medium }}" alt="{{ offer.title }}">
+        <a class="primary-btn inverse" href="/offers/{{ offer.url_friendly_name }}"><span>{% t 'check_rate' %}</span><i class="fas fa-angle-right"></i></a>
       </div>
     </div>
     <div class="offers__content">
       <div class="offers__content__inner">
-        <h2>Offer number one</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.</p>
-        <a class="primary-btn" href="/rooms/"><span>{% t 'view_offer' %}</span><i class="fas fa-angle-right"></i></a>
+        <h2>{{ offer.title }}</h2>
+        <p>{{ offer.short_description }}</p>
+        <a class="primary-btn" href="/offers/{{ offer.url_friendly_name }}"><span>View Offer</span><i class="fas fa-angle-right"></i></a>
       </div>
     </div>
   </div>
+  {% endfor %}
   <div class="offers__row">
     <div class="offers__image">
       <div class="offers__image__inner">

@@ -18,6 +18,10 @@
     "type": "image",
     "required": true
   },
+	"offer_expiry": {
+		"label": "Offer Expiry Date",
+		"type": "date" 
+	},
 	"short_description": {
 		"label": "Short Description",
 		"required": true,

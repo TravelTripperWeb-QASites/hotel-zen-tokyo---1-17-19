@@ -1,26 +1,19 @@
 ---
 layout: default
-title_localized:
-  en: Offers | Hotel Zen Tokyo
-  ja: Offers | Hotel Zen Tokyo
-meta_description_localized:
-  en: Offers
-  ja: Offers
-permalink_localized:
-  en: /offer-details/
-  ja: /offer-details/
-published_localized:
-  en: true
-  ja: true
-meta_tags:
-  robots:
 ---
+
+{% assign offer = page %}
+{% assign model = page %}
+
+{% if site.active_lang == "ja" %}
+ {% assign lang_url = '/ja' %}
+{% endif %}
 
 <!-- Offers Banner -->
 <section class="page-banner text-center">
     <img src="/assets/images/offers/offers-banner.jpg" alt="">
   <div class="inner-banner-content">
-    <h1 tabindex="0">Offer number one</h1>
+    <h1 tabindex="0">{{ offer.title }}</h1>
   </div>
 </section>
 
@@ -38,15 +31,15 @@ meta_tags:
 <section class="offer-details">
   <div class="offer-details__row">
     <div class="offer-details__image">
-      <img src="/assets/images/offers/offer-details.jpg" alt="Offer details">
+      <img src="{{ offer.image.url_large }}" alt="{{ offer.title }}">
     </div>
     <div class="offer-details__content">
       <div class="offer-details__content__inner">
-        <h2 tabindex="0">Offer number one</h2>
+        <h2 tabindex="0">{{ offer.title }}</h2>
         <p tabindex="0">Valid until 08 May 2012</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium. Mauris elit orci, ultricies id fermentum vel, porta et eros. Vestibulum condimentum lectus in convallis feugiat.</p>
+        {{ offer.long_description }}
         <div class="btn-holder">
-          <a class="primary-btn" href="/rooms/"><span>{% t 'book_offer' %}</span><i class="fas fa-angle-right"></i></a>
+          <a class="primary-btn" href="{{ offer.offer_url }}" target="_blank"><span>Book Offer</span><i class="fas fa-angle-right"></i></a>
         </div>
         <div class="terms" tabindex="0">Terms & Conditions</div>
         <ul class="offer-details__content__list" tabindex="0">
