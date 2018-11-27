@@ -37,6 +37,11 @@ meta_tags:
 
 
 <section class="content-grid-location">
+  <div class="content-grid-location__image content-grid-location__image--1 image--objectwrap m-hide">
+    {% regionblock location_image_one, type:image %}
+      <img src="/assets/images/location/mifune.jpg" class="objectfit">
+    {% endregionblock %}
+  </div>
   <div class="content-grid-location__content">
     <div class="content-wrap">
       {% regionblock ningyocho_tagline, type:header %}
@@ -49,11 +54,6 @@ meta_tags:
         <p>Our hotel is mere steps away from Ningyocho Station, which offers direct access to both of Tokyo's airports and the city's most exciting destinations. The Ningyocho/Nihonmbashi neighborhood is a historically rich district within Tokyo that has retained much of its traditional charm, architecture and experiences. Take a stroll around the hotel and enjoy some of Tokyo's oldest shops and local foods. </p>
       {% endregionblock %}
     </div>
-  </div>
-  <div class="content-grid-location__image content-grid-location__image--1 image--objectwrap m-hide">
-    {% regionblock location_image_one, type:image %}
-      <img src="/assets/images/location/mifune.jpg" class="objectfit">
-    {% endregionblock %}
   </div>
   <div class="content-grid-location__image content-grid-location__image--2 image--objectwrap m-hide">
     {% regionblock location_image_two, type:image %}

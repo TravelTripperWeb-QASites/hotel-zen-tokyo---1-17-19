@@ -1,0 +1,55 @@
+{
+	"title":{
+		"required":true,
+    "localizable": true
+	},
+	"meta_title": {
+		"label": "Meta Title",
+		"type": "text",
+		"localizable": true
+	},
+	"meta_description": {
+		"label": "Meta Description",
+		"type": "text",
+		"localizable": true
+	},
+  "image": {
+    "label": "Offer Image",
+    "type": "image",
+    "required": true
+  },
+	"short_description": {
+		"label": "Short Description",
+		"required": true,
+		"localizable": true
+	},
+	"long_description": {
+		"label": "Long Description",
+		"required": true,
+    "type": "richtext",
+    "localizable": true
+	},
+  "url_friendly_name": {
+    "type": "url_slug",
+    "required": true
+  },
+	"terms_conditions": {
+		"type": "nested",
+    "multiple": true,
+    "localizable": true,
+    "hint": "Click on 'Add New Menu Items' below to add more terms & Conditions.",
+    "fields": {
+      "terms": {
+        "required": true
+      }
+		}
+	},
+  "offer_url": {
+    "label": "Booking URL",
+		"localizable": true,
+    "required": false
+  },
+  "order": {
+    "type": "integer"
+  }
+}
