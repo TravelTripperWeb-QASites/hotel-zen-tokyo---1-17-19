@@ -27,13 +27,13 @@ layout: default
   </ul>
 </div>
 
-<section class="offer-details">
-  <div class="offer-details__row">
-    <div class="offer-details__image">
+<section class="two-col">
+  <div class="two-col__row">
+    <div class="two-col__image">
       <img src="{{ offer.image.url_large }}" alt="{{ offer.title }}">
     </div>
-    <div class="offer-details__content">
-      <div class="offer-details__content__inner">
+    <div class="two-col__content">
+      <div class="two-col__content__inner">
         <h2 tabindex="0">{{ offer.title }}</h2>
         {% if offer.offer_expiry %}
           <p tabindex="0">Valid until {{ offer.offer_expiry | date: "%d %B %Y" }}</p>
@@ -44,7 +44,7 @@ layout: default
         </div>
         {% if offer.terms_conditions %}
           <div class="terms" tabindex="0">Terms & Conditions</div>
-          <ul class="offer-details__content__list" tabindex="0">
+          <ul class="two-col__content__list" tabindex="0">
             {% for tc in offer.terms_conditions %}
             <li>{{ tc.terms }}</li>
             {% endfor %}
