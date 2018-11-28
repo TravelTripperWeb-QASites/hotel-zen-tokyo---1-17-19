@@ -1,0 +1,36 @@
+{
+  "title": {
+    "required": true,
+    "label": "Title",
+    "localizable": true
+  },
+  "image": {
+    "label": "Menu Image",
+    "type": "image",
+    "required": true
+  },
+  "timings": {
+    "label": "Timings",
+    "required": true,
+    "localizable": true
+  },
+  "menu_items": {
+    "label": "Menu Items",
+    "required": true,
+    "localizable": true
+  },
+  "menu_btn_text": {
+    "label": "Menu Button Text",
+    "required": true,
+    "localizable": true
+  },
+  "menu_btn_link": {
+    "label": "Menu Button Link",
+    "required": true,
+    "localizable": true
+  },
+  "sort_order": {
+    "type": "integer",
+    "required": true
+  }
+}

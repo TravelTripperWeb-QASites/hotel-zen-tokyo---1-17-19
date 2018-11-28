@@ -35,10 +35,12 @@ meta_tags:
 <section class="two-col two-col--location">
   <div class="two-col__row">
     <div class="two-col__image">
-      <img src="/assets/images/location/location-map.jpg" alt="Location Map">
+      {% regionblock location_map_image, type:image %}
+        <img src="/assets/images/location/location-map.jpg" alt="Location Map">
+      {% endregionblock %}
     </div>
     <div class="two-col__content">
-      <div class="two-col__content__inner">
+      <div class="two-col__content__inner prime-location">
         <h4 tabindex="0">
           {% regionblock location_map_subtitle, type:text %}
             Prime Location
@@ -52,28 +54,21 @@ meta_tags:
         {% regionblock location_map_description, type:text %}
           <p tabindex="0">Hotel Zen Tokyo is located 30 seconds away from the closest metro station, providing immediate access to travel destinations around Tokyo. Destinations like Ginza, Asakusa, Akihabara, Roppongi, and Shiubya are all minutes away.</p>
         {% endregionblock %}
-        <div class="btn-holder">
-          <a class="primary-btn" href="{{ offer.offer_url }}" target="_blank"><span>Book Offer</span><i class="fas fa-angle-right"></i></a>
-        </div>
-        {% regionblock location_map_left, type:text %}
+        {% regionblock location_map_distances_list, type:text %}
           <ul class="two-col__content__list" tabindex="0">
-            <li>Akihabara: 3 minutes</li>
-            <li>Akihabara: 3 minutes</li>
-            <li>Asakusa: 7 minutes</li>
-            <li>Ginza: 9 minutes</li>
-            <li>Tsukiji: 10 minutes</li>
-            <li>Tokyo Sky Tree: 14 minutes</li>
+            <li> Akihabara: 3 minutes </li>
+            <li> Asakusa: 7 minutes </li>
+            <li> Ginza: 9 minutes </li>
+            <li> Tsukiji: 10 minutes </li>
+            <li> Tokyo Sky Tree: 14 minutes </li>
           </ul>
-        {% endregionblock %}
-        {% regionblock location_map_right, type:text %}
-        <ul class="two-col__content__list" tabindex="0">
-          <li>Akihabara: 3 minutes</li>
-          <li>Akihabara: 3 minutes</li>
-          <li>Asakusa: 7 minutes</li>
-          <li>Ginza: 9 minutes</li>
-          <li>Tsukiji: 10 minutes</li>
-          <li>Tokyo Sky Tree: 14 minutes</li>
-        </ul>
+          <ul class="two-col__content__list" tabindex="0">
+            <li> Tokyo station: 20 minute walk </li>
+            <li> Ryogoku (sumo): 12 minutes </li>
+            <li> Roppongi: 24 minutes </li>
+            <li> Shibuya: 28 minutes </li>
+            <li> Shinjuku: 29 minutes </li>
+          </ul>
         {% endregionblock %}
       </div>
     </div>
