@@ -4,6 +4,11 @@
     "label": "Title",
     "localizable": true
   },
+  "image": {
+    "label": "Menu Image",
+    "type": "image",
+    "required": true
+  },
   "timings": {
     "label": "Timings",
     "required": true,
