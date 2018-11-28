@@ -19,5 +19,25 @@
     "en": "See Menu",
     "ja": "メニューを見る"
   },
-  "sort_order": 1
+  "sort_order": 1,
+  "image": {
+    "name": "cafe-lunch",
+    "file_name": "cafe-lunch.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-065521/cafe-lunch.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-11-28-065521",
+    "file_type": "image/jpeg",
+    "width": 1424,
+    "height": 1040,
+    "file_size": 330003,
+    "url_large": "//cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-065521/large_cafe-lunch.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-065521/medium_cafe-lunch.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-065521/small_cafe-lunch.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-065521/xsmall_cafe-lunch.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-065521/thumb_cafe-lunch.jpg",
+    "path": "//cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-065521/cafe-lunch.jpg",
+    "alt": "cafe-lunch",
+    "caption": ""
+  }
 }
