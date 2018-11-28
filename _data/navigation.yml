@@ -38,35 +38,35 @@ footer_left_localized:
   en:
     - title: Rooms
       url: /rooms/
-    - title: Offers
-      url: /offers/
-    - title: Cafe Lounge
-      url: /cafe-lounge/
-    - title: Location
-      url: /location/
     - title: Amenities
       url: /amenities/
+    - title: Offers
+      url: /offers/
     - title: Gallery
       url: /gallery/
+    - title: Cafe Lounge
+      url: /cafe-lounge/
     - title: Blog
       url: /blog/
+    - title: Location
+      url: /location/
     - title: FAQ
       url: /faq/
   ja:
     - title: 客室
       url: /ja/rooms/
-    - title: Offers
-      url: /ja/offers/
-    - title: Cafe Lounge
-      url: /ja/cafe-lounge/
-    - title: ロケーション
-      url: /ja/location/
     - title: Amenities
       url: /ja/amenities/
+    - title: Offers
+      url: /ja/offers/
     - title: ギャラリー
       url: /ja/gallery/
+    - title: Cafe Lounge
+      url: /ja/cafe-lounge/
     - title: ブログ
       url: /ja/blog/
+    - title: ロケーション
+      url: /ja/location/
     - title: よくあるご質問
       url: /ja/faq/
 footer_right_localized:

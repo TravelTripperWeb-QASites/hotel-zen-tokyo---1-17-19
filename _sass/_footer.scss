@@ -87,7 +87,6 @@ footer {
         text-align: center;
 
         @include media-breakpoint-up(lg) {
-          min-width: 170px;
           padding: 0 15px 0 0;
           text-align: left;
         }
@@ -102,6 +101,14 @@ footer {
             color: $dark-gray;
             text-decoration: none;
           }
+        }
+      }
+      &.about-links {
+        max-width: 310px;
+        margin: auto;
+        li {
+          display: inline-block;
+          width: 49%;
         }
       }
     }
