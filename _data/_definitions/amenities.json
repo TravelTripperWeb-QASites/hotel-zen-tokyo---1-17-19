@@ -1,0 +1,20 @@
+{
+	"title":{
+		"required":true,
+    "localizable": true
+	},
+	"category": {
+	"label": "Category",
+	"type": "select",
+	"options": ["Luggage Storage", "Amenities & Services", "Common Facilities" ],
+	"required": true
+	},
+  "image": {
+    "label": "Offer Image",
+    "type": "image",
+    "required": true
+  },
+  "order": {
+    "type": "integer"
+  }
+}

@@ -10,7 +10,7 @@ email: contact@senrecube.com
 # Language Settings
 default_lang: 'en'
 languages: ['en','ja']
-exclude_from_localizations: ["assets", "CNAME"]
+exclude_from_localizations: ["assets/images","assets/js", "CNAME"]
 
 # Reading Files
 include:
@@ -99,9 +99,9 @@ page_gen: #
   # - data: 'events'
   #   template: 'event-single'
   #   dir: 'events'
-  # - data: 'offers'
-  #   template: 'offer-single'
-  #   dir: 'offers'
+    - data: 'offers'
+      template: 'offer-single'
+      dir: 'offers'
   # - data: 'rooms'
   #   template: 'room-single'
   #   dir: 'rooms'

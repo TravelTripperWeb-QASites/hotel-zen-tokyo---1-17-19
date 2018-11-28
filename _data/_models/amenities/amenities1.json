@@ -1,0 +1,29 @@
+{
+  "title_localized": {
+    "en": "Your own locker",
+    "ja": "Your own locker"
+  },
+  "category": "Luggage Storage",
+  "image": {
+    "name": "locker",
+    "file_name": "locker.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014943/locker.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-11-27-014943",
+    "file_type": "image/jpeg",
+    "width": 784,
+    "height": 784,
+    "file_size": 59932,
+    "url_large": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014943/large_locker.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014943/medium_locker.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014943/small_locker.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014943/xsmall_locker.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014943/thumb_locker.jpg",
+    "git_file_name": "_assets/image_data/locker.json",
+    "path": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014943/locker.jpg",
+    "alt": "Your own locker",
+    "caption": ""
+  },
+  "order": 1
+}

@@ -1,0 +1,205 @@
+---
+layout: default
+title_localized:
+  en: Cafe Lounge | Hotel Zen Tokyo
+  ja: Cafe Lounge | Hotel Zen Tokyo
+meta_description_localized:
+  en: Offers
+  ja: Offers
+permalink_localized:
+  en: /cafe-lounge/
+  ja: /cafe-lounge/
+published_localized:
+  en: true
+  ja: true
+meta_tags:
+  robots:
+---
+
+<!-- Offers Banner -->
+<section class="page-banner text-center">
+  {% regionblock banner, type:image %}
+    <img src="/assets/images/cafe-lounge/cafe-lounge-banner.jpg" alt="Cafe Lounge">
+  {% endregionblock %}
+  <div class="inner-banner-content">
+    {% regionblock banner_heading, type:header %}
+      <h1 tabindex="0">cafe lounge</h1>
+    {% endregionblock %}
+  </div>
+</section>
+
+<!-- Offers listing -->
+<section class="cafelounge">
+  <div class="cafelounge__row cafelounge__row--alternate">
+    <div class="cafelounge__image">
+      {% regionblock lunch_image, type:image %}
+      <img src="/assets/images/cafe-lounge/cafe-lunch.jpg" alt="Cafe Lunch">
+      {% endregionblock %}
+    </div>
+    <div class="cafelounge__content">
+      <div class="cafelounge__content__inner">
+        {% regionblock lunch_headline, type:text %}
+        <h2 tabindex="0">lunch</h2>
+        {% endregionblock %}
+        <div class="hours" tabindex="0">
+          {% regionblock lunch_hours, type:text %}
+            Hours: 11:00 - 18:00
+          {% endregionblock %}
+        </div>
+        {% regionblock lunch_menu, type:text %}
+          <p tabindex="0">Menu: local lunch dishes, local sweets, matcha, coffee, and more</p>
+        {% endregionblock %}
+        <div class="btn-holder">
+          <a class="primary-btn inverse" href="#"><span>{% t 'see_menu' %}</span><i class="fas fa-angle-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cafelounge__row">
+    <div class="cafelounge__image">
+      {% regionblock dinner_image, type:image %}
+        <img src="/assets/images/cafe-lounge/cafe-dinner.jpg" alt="Cafe Dinner">
+      {% endregionblock %}
+    </div>
+    <div class="cafelounge__content">
+      <div class="cafelounge__content__inner">
+        {% regionblock dinner_headline, type:text %}
+          <h2 tabindex="0">dinner & bar</h2>
+        {% endregionblock %}
+        <div class="hours" tabindex="0">
+          {% regionblock dinner_hours, type:text %}
+            Hours: 18:00 - 24:00
+          {% endregionblock %}
+        </div>
+
+        {% regionblock dinner_menu, type:text %}
+          <p tabindex="0">Menu: local dishes, sake, wine, local liquor, and more</p>
+        {% endregionblock %}
+
+        <div class="btn-holder">
+          <a class="primary-btn inverse" href="#"><span>{% t 'see_menu' %}</span><i class="fas fa-angle-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cross-sell">
+  <div class="cross-sell__row">
+    <div class="cross-sell__image">
+      {% regionblock cross-sell_image, type:image %}
+        <img src="/assets/images/cafe-lounge/cross-sell.jpg" alt="Menu curated by one of the most renowned French restaurants in Tokyo">
+      {% endregionblock %}
+    </div>
+    <div class="cross-sell__content">
+      <h2 tabindex="0">
+        {% regionblock cross-sell_text, type:text %}
+          Menu curated by one of the most renowned French restaurants in Tokyo
+        {% endregionblock %}
+      </h2>
+      <div class="cross-sell__logo">
+        {% regionblock cross-sell_text, type:text %}
+          <img src="/assets/images/cafe-lounge/sample-logo.png" alt="Restaurants">
+        {% endregionblock %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cafelounge">
+  <div class="cafelounge__row">
+    <div class="cafelounge__image">
+      {% regionblock chef_image, type:image %}
+        <img src="/assets/images/cafe-lounge/kota.jpg" alt="Kota Narusawa">
+      {% endregionblock %}
+    </div>
+    <div class="cafelounge__content">
+      <div class="cafelounge__content__inner">
+        {% regionblock chef_name, type:text %}
+          <h2 tabindex="0">Kota Narusawa</h2>
+        {% endregionblock %}
+        {% regionblock chef_info, type:text %}
+          <div tabindex="0">
+            <p>Kota is the general manager and chef sommelier of TOYO restaurant located in Tokyo’s Midtown Hibiya. Kota was trained at Ginza l’Odorante, Azabu Juban Liberté a table de TAKEDA (Michelin Guide * one star) as manager / sommelier. He is an expert in pairing with a wide array of cuisine, a skill he honed collaborating with restaurants from all over the world.</p>
+          </div>
+        {% endregionblock %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hours-schedule">
+  <div class="hours-schedule__container">
+    <h2 tabindex="0">
+      {% regionblock schedule_title, type:text %}
+        Hours & Schedule
+      {% endregionblock %}
+    </h2>
+
+    <p tabindex="0">
+      {% regionblock schedule_title, type:text %}
+        Monday to Friday: 11:00 - 24:00 | Saturday: 11:00 - 24:00 | Sunday: 11:00 - 15:00
+      {% endregionblock %}
+    </p>
+    <div class="hours-schedule__row">
+      <div class="hours-schedule__content">
+        <h4 tabindex="0">
+          {% regionblock schedule_left_month, type:text %}
+            November 2018
+          {% endregionblock %}
+        </h4>
+        {% regionblock schedule_left_dates, type:text %}
+          <ul class="schedule" tabindex="0">
+            <li><a href=""><span>11/06</span>Venue closed due to private party</a></li>
+            <li><a href=""><span>11/18</span>Live jazz night featuring a saxophone, guitar and double bass</a></li>
+            <li><a href=""><span>11/19</span>Live jazz night featuring the Tokyo Jazz Ensamble</a></li>
+            <li><a href=""><span>11/23</span>Live jazz night featuring a,b,c</a></li>
+          </ul>
+        {% endregionblock %}
+      </div>
+      <div class="hours-schedule__content">
+        <h4 tabindex="0">
+          {% regionblock schedule_right_month, type:text %}
+            December 2018
+          {% endregionblock %}
+        </h4>
+        {% regionblock schedule_right_dates, type:text %}
+          <ul class="schedule" tabindex="0">
+            <li><a href=""><span>12/06</span>Venue closed due to private party</a></li>
+            <li><a href=""><span>12/14</span>Live jazz night featuring a,b,c</a></li>
+            <li><a href=""><span>12/18</span>Live jazz night featuring a,b,c</a></li>
+            <li><a href=""><span>12/19</span>Live jazz night featuring a,b,c</a></li>
+            <li><a href=""><span>12/22</span>Live jazz night featuring a,b,c</a></li>
+            <li><a href=""><span>12/23</span>Live jazz night featuring a,b,c</a></li>
+          </ul>
+        {% endregionblock %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cafelounge">
+  <div class="cafelounge__row cafelounge__row--alternate">
+    <div class="cafelounge__image">
+      <img src="/assets/images/cafe-lounge/lounge.jpg" alt="Event Space">
+    </div>
+    <div class="cafelounge__content">
+      <div class="cafelounge__content__inner">
+        {% regionblock event_space, type:text %}
+          <h2 tabindex="0">Event Space</h2>
+        {% endregionblock %}
+        {% regionblock event_space_content, type:text %}
+          <p tabindex="0">
+            You can book our bar lounge for events. If interested, please inquire at <a href="mailto:info@hotelzen.jp">info@hotelzen.jp</a>
+        </p>
+        {% endregionblock %}
+        <div class="btn-holder">
+          <a class="primary-btn inverse mr-4 mb-3" href=""><span>See Venue Details</span><i class="fas fa-angle-right"></i></a>
+          <a class="primary-btn inverse" href="/request-for-proposal/"><span>Enquire</span><i class="fas fa-angle-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include forms/jotform/newsletter.html %}

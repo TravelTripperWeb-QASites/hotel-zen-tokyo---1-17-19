@@ -1,0 +1,29 @@
+{
+  "title_localized": {
+    "en": "Coin laundry (paid service)",
+    "ja": "Coin laundry (paid service)"
+  },
+  "category": "Amenities & Services",
+  "image": {
+    "name": "laundry",
+    "file_name": "laundry.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014944/laundry.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-11-27-014944",
+    "file_type": "image/jpeg",
+    "width": 784,
+    "height": 784,
+    "file_size": 211134,
+    "url_large": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014944/large_laundry.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014944/medium_laundry.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014944/small_laundry.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014944/xsmall_laundry.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014944/thumb_laundry.jpg",
+    "git_file_name": "_assets/image_data/laundry.json",
+    "path": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014944/laundry.jpg",
+    "alt": "Coin laundry (paid service)",
+    "caption": ""
+  },
+  "order": 6
+}

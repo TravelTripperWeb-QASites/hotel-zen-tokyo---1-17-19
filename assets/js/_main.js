@@ -37,12 +37,12 @@ $(document).ready(function () {
         }
       });
     $(this.form)
-      .find('#contact-btn') // Button class names should be unique for every form
+      .find('#contact-btn,#rfp-btn') // Button class names should be unique for every form
       .prop('disabled', !isValidForm);
     return isValidForm;
   }
 
-  $(' #contact-btn') // Button class names should be unique for every form
+  $(' #contact-btn,#rfp-btn') // Button class names should be unique for every form
     .closest('form')
     // indirectly bind the handler to form
     .submit(function () {
@@ -96,6 +96,8 @@ $(document).ready(function () {
     }
 
   });
+
+  $( "#datepicker" ).datepicker();
 
 });
 

@@ -1,0 +1,29 @@
+{
+  "title_localized": {
+    "en": "In-pod safe for valuables",
+    "ja": "In-pod safe for valuables"
+  },
+  "category": "Luggage Storage",
+  "image": {
+    "name": "safe",
+    "file_name": "safe.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014942/safe.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-11-27-014942",
+    "file_type": "image/jpeg",
+    "width": 784,
+    "height": 784,
+    "file_size": 154466,
+    "url_large": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014942/large_safe.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014942/medium_safe.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014942/small_safe.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014942/xsmall_safe.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014942/thumb_safe.jpg",
+    "git_file_name": "_assets/image_data/safe.json",
+    "path": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014942/safe.jpg",
+    "alt": "In-pod safe for valuables",
+    "caption": ""
+  },
+  "order": 3
+}

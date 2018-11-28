@@ -1,6 +1,7 @@
 ---
 ---
 
+@import "basefont{{site.active_lang}}";
 @import "bootstrap/bootstrap";
 @import "lightgallery/lightgallery";
 @import "variables";
@@ -25,4 +26,7 @@
 @import "pages/careers";
 @import "pages/faq";
 @import "pages/static";
+@import "pages/amenities";
+@import "pages/cafelounge";
+@import "pages/rfp";
 @import "shame";

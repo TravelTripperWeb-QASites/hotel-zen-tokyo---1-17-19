@@ -1,0 +1,29 @@
+{
+  "title_localized": {
+    "en": "Suitcase pole with locks",
+    "ja": "Suitcase pole with locks"
+  },
+  "category": "Luggage Storage",
+  "image": {
+    "name": "suitcase-pole",
+    "file_name": "suitcase-pole.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014939/suitcase-pole.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-11-27-014939",
+    "file_type": "image/jpeg",
+    "width": 784,
+    "height": 784,
+    "file_size": 97418,
+    "url_large": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014939/large_suitcase-pole.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014939/medium_suitcase-pole.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014939/small_suitcase-pole.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014939/xsmall_suitcase-pole.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014939/thumb_suitcase-pole.jpg",
+    "git_file_name": "_assets/image_data/suitcase-pole.json",
+    "path": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014939/suitcase-pole.jpg",
+    "alt": "Suitcase pole with locks",
+    "caption": ""
+  },
+  "order": 2
+}

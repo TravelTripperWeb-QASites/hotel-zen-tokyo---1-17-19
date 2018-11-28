@@ -1,0 +1,29 @@
+{
+  "title_localized": {
+    "en": "Basement bar lounge",
+    "ja": "Basement bar lounge"
+  },
+  "category": "Common Facilities",
+  "image": {
+    "name": "bar",
+    "file_name": "bar.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014948/bar.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-11-27-014948",
+    "file_type": "image/jpeg",
+    "width": 784,
+    "height": 784,
+    "file_size": 163891,
+    "url_large": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014948/large_bar.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014948/medium_bar.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014948/small_bar.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014948/xsmall_bar.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014948/thumb_bar.jpg",
+    "git_file_name": "_assets/image_data/bar.json",
+    "path": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014948/bar.jpg",
+    "alt": "Basement bar lounge",
+    "caption": ""
+  },
+  "order": 9
+}

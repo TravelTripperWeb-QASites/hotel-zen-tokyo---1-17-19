@@ -1,0 +1,50 @@
+<form class="needs-validation" action="https://submit.jotform.me/submit/{{ site.data.forms.jotform.rfp-id }}/" method="post" name="form_{{ site.data.forms.jotform.rfp-id }}"
+    id="{{ site.data.forms.jotform.rfp-id }}" accept-charset="utf-8" novalidate>
+    <input type="hidden" name="formID" value="{{ site.data.forms.jotform.rfp-id }}">
+    <input type="hidden" name="q9_language" value="{{ site.active_lang }}">
+    <div class="form-group two">
+      <div class="input-block">
+        <input type="text" class="form-control" placeholder="{% t 'first_name' %} *" aria-label="{% t 'validation_firstname' %}" title="{% t 'validation_firstname' %}" id="validationUsername" name="q3_firstName" required>
+        <div class="invalid-feedback">
+          {% t 'validation_firstname' %}
+        </div>
+      </div>
+      <div class="input-block">
+        <input type="text" class="form-control" placeholder="{% t 'surname' %} *" aria-label="% t 'validation_surname' %}" title="{% t 'validation_surname' %}" id="validationSurnname" name="q6_enterYour6" required>
+        <div class="invalid-feedback">
+          {% t 'validation_surname' %}
+        </div>
+      </div>
+      <div class="input-block">
+        <input type="email" class="form-control" placeholder="{% t 'email' %} *" aria-label="{% t 'validation_email' %}" title="{% t 'validation_email' %}" id="validationEmail" name="q4_email" required>
+        <div class="invalid-feedback">
+          {% t 'validation_email' %}
+        </div>
+      </div>
+      <div class="input-block">
+        <input type="text" class="form-control" placeholder="{% t 'phone_number' %} *" aria-label="{% t 'phone_number' %}" title="{% t 'phone_number' %}" id="validationPhone" name="q10_phoneNumber" required>
+        <div class="invalid-feedback">
+          {% t 'phone_number' %}
+        </div>
+      </div>
+      <div class="input-block">
+        <input type="text" class="form-control" placeholder="{% t 'date_of_interest' %}" aria-label="{% t 'date_of_interest' %}" title="{% t 'date_of_interest' %}" id="datepicker" name="q11_dateOf">
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="{% t 'your_message' %} *" id="validationMessage" name="q5_message" aria-label="Enter your message" title="{% t 'validation_message' %}" required></textarea>
+      <div class="invalid-feedback">
+        {% t 'validation_message' %}
+      </div>
+    </div>
+    <div class="form-check custom-checkbox">
+      <input class="custom-control-input" type="checkbox" title="{% t 'validation_agree' %}" value="Accept" id="tnc" name="q8_terms[]" required>
+      <label class="custom-control-label" for="tnc">
+       {% t 'privacy_text' %}
+      </label>
+      <div class="invalid-feedback">
+        {% t 'validation_agree' %}
+      </div>
+    </div>
+    <button class="primary-btn" id="rfp-btn" type="submit" disabled><span>{% t 'submit' %}</span><i class="fas fa-angle-right"></i></button>
+</form>

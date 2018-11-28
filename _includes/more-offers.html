@@ -1,0 +1,25 @@
+<section class="more-offers">
+  <h4 tabindex="0">Special Offers & Packages</h4>
+  <h2 tabindex="0">Book direct and save</h2>
+  <div class="more-offers__row">
+    {% assign offers = site.data._models.offers | sort: 'order' %}
+    {% for offer in offers | limit: 3 %}
+    <div class="more-offers__item">
+      <div class="more-offers__item__inner">
+        <figure class="more-offers__image">
+          <a href="" tabindex="-1">
+            <img src="{{ offer.image.url_medium }}" alt="{{ offer.title }}">
+          </a>
+        </figure>
+        <div class="more-offers__content">
+          <a href="/offers/{{ offer.url_friendly_name }}/" class="link-btn">View Offer</a>
+          <h3 tabindex="0"><a href="">{{ offer.title }}</a></h3>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="btn-holder">
+    <a href="" class="primary-btn"><span>View All Offers</span><i class="fas fa-angle-right"></i></a>
+  </div>
+</section>

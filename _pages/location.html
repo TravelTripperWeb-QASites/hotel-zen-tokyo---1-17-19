@@ -32,11 +32,64 @@ meta_tags:
   </div>
 </section>
 
+<section class="two-col two-col--location">
+  <div class="two-col__row">
+    <div class="two-col__image">
+      <img src="/assets/images/location/location-map.jpg" alt="Location Map">
+    </div>
+    <div class="two-col__content">
+      <div class="two-col__content__inner">
+        <h4 tabindex="0">
+          {% regionblock location_map_subtitle, type:text %}
+            Prime Location
+          {% endregionblock %}
+        </h4>
+        <h2 tabindex="0">
+          {% regionblock location_map_title, type:text %}
+            Minutes away from major landmarks
+          {% endregionblock %}
+        </h2>
+        {% regionblock location_map_description, type:text %}
+          <p tabindex="0">Hotel Zen Tokyo is located 30 seconds away from the closest metro station, providing immediate access to travel destinations around Tokyo. Destinations like Ginza, Asakusa, Akihabara, Roppongi, and Shiubya are all minutes away.</p>
+        {% endregionblock %}
+        <div class="btn-holder">
+          <a class="primary-btn" href="{{ offer.offer_url }}" target="_blank"><span>Book Offer</span><i class="fas fa-angle-right"></i></a>
+        </div>
+        {% regionblock location_map_left, type:text %}
+          <ul class="two-col__content__list" tabindex="0">
+            <li>Akihabara: 3 minutes</li>
+            <li>Akihabara: 3 minutes</li>
+            <li>Asakusa: 7 minutes</li>
+            <li>Ginza: 9 minutes</li>
+            <li>Tsukiji: 10 minutes</li>
+            <li>Tokyo Sky Tree: 14 minutes</li>
+          </ul>
+        {% endregionblock %}
+        {% regionblock location_map_right, type:text %}
+        <ul class="two-col__content__list" tabindex="0">
+          <li>Akihabara: 3 minutes</li>
+          <li>Akihabara: 3 minutes</li>
+          <li>Asakusa: 7 minutes</li>
+          <li>Ginza: 9 minutes</li>
+          <li>Tsukiji: 10 minutes</li>
+          <li>Tokyo Sky Tree: 14 minutes</li>
+        </ul>
+        {% endregionblock %}
+      </div>
+    </div>
+  </div>
+</section>
+
 <!--About content here -->
 {% assign pageimages = site.data._models.page-images %}
 
 
 <section class="content-grid-location">
+  <div class="content-grid-location__image content-grid-location__image--1 image--objectwrap m-hide">
+    {% regionblock location_image_one, type:image %}
+      <img src="/assets/images/location/mifune.jpg" class="objectfit">
+    {% endregionblock %}
+  </div>
   <div class="content-grid-location__content">
     <div class="content-wrap">
       {% regionblock ningyocho_tagline, type:header %}
@@ -49,11 +102,6 @@ meta_tags:
         <p>Our hotel is mere steps away from Ningyocho Station, which offers direct access to both of Tokyo's airports and the city's most exciting destinations. The Ningyocho/Nihonmbashi neighborhood is a historically rich district within Tokyo that has retained much of its traditional charm, architecture and experiences. Take a stroll around the hotel and enjoy some of Tokyo's oldest shops and local foods. </p>
       {% endregionblock %}
     </div>
-  </div>
-  <div class="content-grid-location__image content-grid-location__image--1 image--objectwrap m-hide">
-    {% regionblock location_image_one, type:image %}
-      <img src="/assets/images/location/mifune.jpg" class="objectfit">
-    {% endregionblock %}
   </div>
   <div class="content-grid-location__image content-grid-location__image--2 image--objectwrap m-hide">
     {% regionblock location_image_two, type:image %}

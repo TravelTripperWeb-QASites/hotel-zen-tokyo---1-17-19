@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+{% assign offer = page %}
+{% assign model = page %}
+
+{% if site.active_lang == "ja" %}
+ {% assign lang_url = '/ja' %}
+{% endif %}
+
+<!-- Offers Banner -->
+<section class="page-banner text-center">
+    <img src="/assets/images/offers/offers-banner.jpg" alt="">
+  <div class="inner-banner-content">
+    <h1 tabindex="0">{{ offer.title }}</h1>
+  </div>
+</section>
+
+<!-- Offers Subnav -->
+<div class="inner-sub-nav text-center">
+  <ul>
+    {% assign offers = site.data._models.offers %}
+    {% for offer in offers %}
+      <li><a href="/offers/{{ offer.url_friendly_name }}" class="{% if page.url_friendly_name == room.url_friendly_name %} active{% endif %}">{{ offer.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<section class="two-col">
+  <div class="two-col__row">
+    <div class="two-col__image">
+      <img src="{{ offer.image.url_large }}" alt="{{ offer.title }}">
+    </div>
+    <div class="two-col__content">
+      <div class="two-col__content__inner">
+        <h2 tabindex="0">{{ offer.title }}</h2>
+        {% if offer.offer_expiry %}
+          <p tabindex="0">Valid until {{ offer.offer_expiry | date: "%d %B %Y" }}</p>
+        {% endif %}
+        {{ offer.long_description }}
+        <div class="btn-holder">
+          <a class="primary-btn" href="{{ offer.offer_url }}" target="_blank"><span>Book Offer</span><i class="fas fa-angle-right"></i></a>
+        </div>
+        {% if offer.terms_conditions %}
+          <div class="terms" tabindex="0">Terms & Conditions</div>
+          <ul class="two-col__content__list" tabindex="0">
+            {% for tc in offer.terms_conditions %}
+            <li>{{ tc.terms }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include stay-zen.html %}
+
+{% include more-offers.html %}
+
+{% include forms/jotform/newsletter.html %}

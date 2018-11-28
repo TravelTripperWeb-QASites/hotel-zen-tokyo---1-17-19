@@ -1,0 +1,68 @@
+{
+  "offer_url_localized": {
+    "en": "https://hotels.cloudbeds.com/en/reservation/yvrDGL",
+    "ja": "https://hotels.cloudbeds.com/ja/reservation/yvrDGL"
+  },
+  "image": {
+    "name": "offer1",
+    "file_name": "offer1.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-26-230222/offer1.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-11-26-230222",
+    "file_type": "image/jpeg",
+    "width": 832,
+    "height": 640,
+    "file_size": 147069,
+    "url_large": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-26-230222/large_offer1.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-26-230222/medium_offer1.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-26-230222/small_offer1.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-26-230222/xsmall_offer1.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-26-230222/thumb_offer1.jpg",
+    "git_file_name": "_assets/image_data/offer1.json",
+    "path": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-26-230222/offer1.jpg",
+    "alt": "Offer number one",
+    "caption": ""
+  },
+  "url_friendly_name": "offer-2",
+  "order": 2,
+  "title_localized": {
+    "en": "Offer number two",
+    "ja": "Offer number two"
+  },
+  "meta_title_localized": {
+    "en": "Offer number one | Hotel Zen Tokyo",
+    "ja": "Offer number one | Hotel Zen Tokyo"
+  },
+  "meta_description_localized": {
+    "en": "Offer number one, Hotel Zen Tokyo",
+    "ja": "Offer number one, Hotel Zen Tokyo"
+  },
+  "short_description_localized": {
+    "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.",
+    "ja": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium."
+  },
+  "long_description_localized": {
+    "en": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium. Mauris elit orci, ultricies id fermentum vel, porta et eros. Vestibulum condimentum lectus in convallis feugiat.</p>",
+    "ja": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium. Mauris elit orci, ultricies id fermentum vel, porta et eros. Vestibulum condimentum lectus in convallis feugiat.</p>"
+  },
+  "terms_conditions_localized": {
+    "en": [
+      {
+        "terms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium."
+      },
+      {
+        "terms": "Mauris elit orci, ultricies id fermentum vel, porta et eros. Vestibulum condimentum lectus in convallis feugiat."
+      }
+    ],
+    "ja": [
+      {
+        "terms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium."
+      },
+      {
+        "terms": "Mauris elit orci, ultricies id fermentum vel, porta et eros. Vestibulum condimentum lectus in convallis feugiat."
+      }
+    ]
+  },
+  "offer_expiry": "2019-01-05T18:30:00.000Z"
+}

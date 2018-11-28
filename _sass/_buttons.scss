@@ -105,3 +105,13 @@
   cursor: not-allowed !important;
   opacity: .3;
 }
+
+.link-btn {
+  display: inline-block;
+  font-size: $type-size-7;
+  color: $black;
+  text-transform: uppercase;
+  &:hover {
+    color: inherit;
+  }
+}

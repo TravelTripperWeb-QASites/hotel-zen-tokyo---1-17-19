@@ -1,7 +1,7 @@
 // Contact Page Elements
 // ==========================================================================
 
-.contact-form {
+.form-container {
   @include fixed-width-content;
   margin-bottom: 72px;
   h2 {
@@ -23,7 +23,7 @@
   }
   .form-control {
     &:valid {
-      border-color: $black !important;
+      // border-color: $black !important;
     }
   }
   input, textarea {
@@ -50,7 +50,7 @@
   label {
     padding-left: 8px;
     font-family: $header-font-family;
-    font-size: $type-size-7;
+    font-size: $type-size-5;
     line-height: normal;
     color: $black !important;
     a {

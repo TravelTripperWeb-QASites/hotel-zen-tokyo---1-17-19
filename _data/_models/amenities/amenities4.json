@@ -1,0 +1,29 @@
+{
+  "title_localized": {
+    "en": "Free breakfast (Coffee & bread)",
+    "ja": "Free breakfast (Coffee & bread)"
+  },
+  "category": "Amenities & Services",
+  "image": {
+    "name": "coffee",
+    "file_name": "coffee.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014946/coffee.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-11-27-014946",
+    "file_type": "image/jpeg",
+    "width": 784,
+    "height": 784,
+    "file_size": 149467,
+    "url_large": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014946/large_coffee.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014946/medium_coffee.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014946/small_coffee.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014946/xsmall_coffee.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014946/thumb_coffee.jpg",
+    "git_file_name": "_assets/image_data/coffee.json",
+    "path": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-27-014946/coffee.jpg",
+    "alt": "Free breakfast (Coffee & bread)",
+    "caption": ""
+  },
+  "order": 4
+}
