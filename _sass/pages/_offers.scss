@@ -107,6 +107,11 @@
       h2 {
         margin-bottom: 25px;
       }
+      &.prime-location {
+        @include media-breakpoint-up(lg) {
+          margin: 0 85px 0 auto;
+        }
+      }
     }
 
     .btn-holder {
@@ -176,7 +181,7 @@
     }
     .two-col__image {
       img {
-        max-width: 520px;
+        max-width: 100%;
         height: auto;
         min-height: auto;
       }
