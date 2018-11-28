@@ -1,18 +1,23 @@
 {
   "menu_btn_link_localized": {
-    "en": "cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-062328/dinner-menu.pdf"
+    "en": "cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-062328/dinner-menu.pdf",
+    "ja": "cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-062328/dinner-menu.pdf"
   },
   "sort_order": 2,
   "title_localized": {
-    "en": "dinner & bar"
+    "en": "dinner & bar",
+    "ja": "ディナー＆バー"
   },
   "timings_localized": {
-    "en": "18:00 - 24:00"
+    "en": "18:00 - 24:00",
+    "ja": "18：00 〜 24：00"
   },
   "menu_items_localized": {
-    "en": "local dishes, sake, wine, local liquor, and more"
+    "en": "local dishes, sake, wine, local liquor, and more",
+    "ja": "地元料理、酒、ワイン、地元の酒など"
   },
   "menu_btn_text_localized": {
-    "en": "See Menu"
+    "en": "See Menu",
+    "ja": "メニューを見る"
   }
 }
