@@ -50,7 +50,9 @@ meta_tags:
           <p tabindex="0">Menu: local lunch dishes, local sweets, matcha, coffee, and more</p>
         {% endregionblock %}
         <div class="btn-holder">
-          <a class="primary-btn inverse" href="#"><span>{% t 'see_menu' %}</span><i class="fas fa-angle-right"></i></a>
+          {% regionblock lunch_menu_cta, type:text %}
+            <a class="primary-btn inverse" href="#"><span>See Menu</span><i class="fas fa-angle-right"></i></a>
+          {% endregionblock %}
         </div>
       </div>
     </div>
@@ -77,7 +79,9 @@ meta_tags:
         {% endregionblock %}
 
         <div class="btn-holder">
-          <a class="primary-btn inverse" href="#"><span>{% t 'see_menu' %}</span><i class="fas fa-angle-right"></i></a>
+          {% regionblock dinner_menu_cta, type:text %}
+            <a class="primary-btn inverse" href="#"><span>See Menu</span><i class="fas fa-angle-right"></i></a>
+          {% endregionblock %}
         </div>
       </div>
     </div>
