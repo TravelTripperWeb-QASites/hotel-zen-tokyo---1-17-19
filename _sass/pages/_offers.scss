@@ -185,6 +185,7 @@
       @include media-breakpoint-up(md) {
         display: inline-block;
         width: 48%;
+        vertical-align: top;
       }
       li {
         padding-bottom: 0;
