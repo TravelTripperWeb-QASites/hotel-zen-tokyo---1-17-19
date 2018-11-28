@@ -188,8 +188,13 @@ svg:not(:root) {
 
 #main {
   margin-top: 61px;
-
-  @include media-breakpoint-up(lg) {
-    margin-top: 128px;
+  @media screen and (min-width: 576px) {
+    margin-top: 69px;
+  }
+  @media screen and (min-width: 1039px) {
+    margin-top: 116px;
+  }
+  @media screen and (min-width: 1100px) {
+    margin-top: 122px;
   }
 }
