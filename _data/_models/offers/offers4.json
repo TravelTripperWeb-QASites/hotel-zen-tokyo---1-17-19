@@ -21,21 +21,21 @@
     "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-26-230222/thumb_offer1.jpg",
     "git_file_name": "_assets/image_data/offer1.json",
     "path": "//cdn.traveltripper.io/site-assets/32_913_21385/media/2018-11-26-230222/offer1.jpg",
-    "alt": "Offer number one",
+    "alt": "Offer D",
     "caption": ""
   },
   "url_friendly_name": "offer-4",
   "order": 4,
   "title_localized": {
-    "en": "Offer number four",
+    "en": "Offer D",
     "ja": "Offer number four"
   },
   "meta_title_localized": {
-    "en": "Offer number one | Hotel Zen Tokyo",
+    "en": "Offer D | Hotel Zen Tokyo",
     "ja": "Offer number one | Hotel Zen Tokyo"
   },
   "meta_description_localized": {
-    "en": "Offer number one, Hotel Zen Tokyo",
+    "en": "Offer D, Hotel Zen Tokyo",
     "ja": "Offer number one, Hotel Zen Tokyo"
   },
   "short_description_localized": {
