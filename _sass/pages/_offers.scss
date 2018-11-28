@@ -170,7 +170,7 @@
   }
 
   &--location {
-    padding: 50px 0;
+    padding: 50px 15px;
     h4 {
       margin-bottom: 10px;
     }
@@ -183,7 +183,7 @@
     }
     .two-col__content__list {
       @include media-breakpoint-up(md) {
-        float: left;
+        display: inline-block;
         width: 48%;
       }
       li {
