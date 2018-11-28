@@ -19,5 +19,25 @@
   "menu_btn_text_localized": {
     "en": "See Menu",
     "ja": "メニューを見る"
+  },
+  "image": {
+    "name": "cafe-dinner",
+    "file_name": "cafe-dinner.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-065409/cafe-dinner.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-11-28-065409",
+    "file_type": "image/jpeg",
+    "width": 1456,
+    "height": 1040,
+    "file_size": 310934,
+    "url_large": "//cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-065409/large_cafe-dinner.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-065409/medium_cafe-dinner.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-065409/small_cafe-dinner.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-065409/xsmall_cafe-dinner.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-065409/thumb_cafe-dinner.jpg",
+    "path": "//cdn.traveltripper.io/site-assets/32_913_21511/media/2018-11-28-065409/cafe-dinner.jpg",
+    "alt": "cafe-dinner",
+    "caption": ""
   }
 }
