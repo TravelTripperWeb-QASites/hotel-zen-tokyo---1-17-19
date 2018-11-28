@@ -30,62 +30,30 @@ meta_tags:
 
 <!-- Offers listing -->
 <section class="cafelounge">
+  {% assign menus = site.data._models.cafe-lounge-menus | sort: "sort_order" %}
+
+  {% for menu in menus %}
+
   <div class="cafelounge__row cafelounge__row--alternate">
     <div class="cafelounge__image">
-      {% regionblock lunch_image, type:image %}
-      <img src="/assets/images/cafe-lounge/cafe-lunch.jpg" alt="Cafe Lunch">
-      {% endregionblock %}
+      <img src="{{menu.image.url}}" alt="{{menu.image.alt}}">
     </div>
     <div class="cafelounge__content">
       <div class="cafelounge__content__inner">
-        {% regionblock lunch_headline, type:text %}
-        <h2 tabindex="0">lunch</h2>
-        {% endregionblock %}
+        <h2 tabindex="0">{{menu.title}}</h2>
         <div class="hours" tabindex="0">
-          {% regionblock lunch_hours, type:text %}
-            Hours: 11:00 - 18:00
-          {% endregionblock %}
+          Hours: {{menu.timings}}
         </div>
-        {% regionblock lunch_menu, type:text %}
-          <p tabindex="0">Menu: local lunch dishes, local sweets, matcha, coffee, and more</p>
-        {% endregionblock %}
+        <p tabindex="0">Menu: {{menu.menu_items}}</p>
         <div class="btn-holder">
-          {% regionblock lunch_menu_cta, type:text %}
-            <a class="primary-btn inverse" href="#"><span>See Menu</span><i class="fas fa-angle-right"></i></a>
-          {% endregionblock %}
+          <a class="primary-btn inverse" href="{{menu.menu_btn_link}}"><span>{{menu.menu_btn_text}}</span><i class="fas fa-angle-right"></i></a>
         </div>
       </div>
     </div>
   </div>
-  <div class="cafelounge__row">
-    <div class="cafelounge__image">
-      {% regionblock dinner_image, type:image %}
-        <img src="/assets/images/cafe-lounge/cafe-dinner.jpg" alt="Cafe Dinner">
-      {% endregionblock %}
-    </div>
-    <div class="cafelounge__content">
-      <div class="cafelounge__content__inner">
-        {% regionblock dinner_headline, type:text %}
-          <h2 tabindex="0">dinner & bar</h2>
-        {% endregionblock %}
-        <div class="hours" tabindex="0">
-          {% regionblock dinner_hours, type:text %}
-            Hours: 18:00 - 24:00
-          {% endregionblock %}
-        </div>
 
-        {% regionblock dinner_menu, type:text %}
-          <p tabindex="0">Menu: local dishes, sake, wine, local liquor, and more</p>
-        {% endregionblock %}
+  {% endfor %}
 
-        <div class="btn-holder">
-          {% regionblock dinner_menu_cta, type:text %}
-            <a class="primary-btn inverse" href="#"><span>See Menu</span><i class="fas fa-angle-right"></i></a>
-          {% endregionblock %}
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 <section class="cross-sell">
