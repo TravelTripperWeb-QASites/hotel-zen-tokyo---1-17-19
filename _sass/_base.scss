@@ -202,3 +202,25 @@ svg:not(:root) {
     margin-top: 122px;
   }
 }
+
+.preloader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999999;
+  background-color: $white;
+}
+
+.status {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin: -100px 0 0 -100px;
+  background-image: url('https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+}

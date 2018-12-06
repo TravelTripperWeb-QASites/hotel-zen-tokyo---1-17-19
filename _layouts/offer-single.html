@@ -36,11 +36,11 @@ layout: default
       <div class="two-col__content__inner">
         <h2 tabindex="0">{{ offer.title }}</h2>
         {% if offer.offer_expiry %}
-          <p tabindex="0">Valid until {{ offer.offer_expiry | date: "%d %B %Y" }}</p>
+          <p tabindex="0">{% t 'valid_until' %} {{ offer.offer_expiry | date: "%d %B %Y" }}</p>
         {% endif %}
         {{ offer.long_description }}
         <div class="btn-holder">
-          <a class="primary-btn" href="{{ offer.offer_url }}" target="_blank"><span>Book Offer</span><i class="fas fa-angle-right"></i></a>
+          <a class="primary-btn" href="{{ offer.offer_url }}" target="_blank"><span>{% t 'book_offer' %}</span><i class="fas fa-angle-right"></i></a>
         </div>
         {% if offer.terms_conditions %}
           <div class="terms" tabindex="0">Terms & Conditions</div>
