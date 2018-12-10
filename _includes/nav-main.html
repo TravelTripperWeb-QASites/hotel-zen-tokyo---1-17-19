@@ -12,7 +12,7 @@
           </select>
         </li>
         {% for link in links %}
-          <li class="nav-item{% if page.url == link.url %} active{% endif%}">
+          <li class="nav-item{% if page.url contains link.url %} active{% endif%}">
             <a class="nav-link" href="{{ link.url | absolute_url }}">{{ link.title }}{% if page.url == link.url %}<span class="sr-only">(current)</span>{% endif%}</a>
           </li>
         {% endfor %}
