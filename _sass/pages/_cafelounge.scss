@@ -85,7 +85,7 @@
   &:after {
     @include absolute-position(0,0,0,0,auto,auto);
     z-index: 1;
-    background-color: rgba($black, .3);
+    background-color: rgba($black, .4);
   }
 
   &__row {
@@ -111,7 +111,7 @@
     padding: 0 30px;
     transform: translateY(-50%);
 
-    h2 {
+    h3 {
       color: $white;
     }
   }

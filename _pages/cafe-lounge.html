@@ -42,9 +42,9 @@ meta_tags:
       <div class="cafelounge__content__inner">
         <h2 tabindex="0">{{menu.title}}</h2>
         <div class="hours" tabindex="0">
-          Hours: {{menu.timings}}
+          {% t 'hours' %}: {{menu.timings}}
         </div>
-        <p tabindex="0">Menu: {{menu.menu_items}}</p>
+        <p tabindex="0">{% t 'menu' %}: {{menu.menu_items}}</p>
         <div class="btn-holder">
           <a class="primary-btn inverse" href="{{menu.menu_btn_link}}" target="_blank"><span>{{menu.menu_btn_text}}</span><i class="fas fa-angle-right"></i></a>
         </div>
@@ -64,11 +64,11 @@ meta_tags:
       {% endregionblock %}
     </div>
     <div class="cross-sell__content">
-      <h2 tabindex="0">
+      <h3 tabindex="0">
         {% regionblock cross-sell_text, type:text %}
           Menu curated by one of the most renowned French restaurants in Tokyo
         {% endregionblock %}
-      </h2>
+      </h3>
       <div class="cross-sell__logo">
         {% regionblock cross-sell_text, type:text %}
           <img src="/assets/images/cafe-lounge/sample-logo.png" alt="Restaurants">
