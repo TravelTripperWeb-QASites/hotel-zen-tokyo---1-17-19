@@ -35,9 +35,6 @@ meta_tags:
   {% for menu in menus %}
 
   <div class="cafelounge__row cafelounge__row--alternate">
-    <div class="cafelounge__image">
-      <img src="{{menu.image.url}}" alt="{{menu.image.alt}}">
-    </div>
     <div class="cafelounge__content">
       <div class="cafelounge__content__inner">
         <h2 tabindex="0">{{menu.title}}</h2>
@@ -49,6 +46,9 @@ meta_tags:
           <a class="primary-btn inverse" href="{{menu.menu_btn_link}}" target="_blank"><span>{{menu.menu_btn_text}}</span><i class="fas fa-angle-right"></i></a>
         </div>
       </div>
+    </div>
+    <div class="cafelounge__image">
+      <img src="{{menu.image.url}}" alt="{{menu.image.alt}}">
     </div>
   </div>
 
@@ -70,8 +70,8 @@ meta_tags:
         {% endregionblock %}
       </h3>
       <div class="cross-sell__logo">
-        {% regionblock cross-sell_text, type:text %}
-          <img src="/assets/images/cafe-lounge/sample-logo.png" alt="Restaurants">
+        {% regionblock cross-sell_logo, type:text %}
+          <img src="//cdn.traveltripper.io/site-assets/32_913_21796/media/2018-12-10-163006/large_TOYOE%CC%81c%CC%A7E%CC%81S__1_.png" alt="Toyo Restaurant">
         {% endregionblock %}
       </div>
     </div>
@@ -152,9 +152,6 @@ meta_tags:
 
 <section class="cafelounge">
   <div class="cafelounge__row cafelounge__row--alternate">
-    <div class="cafelounge__image">
-      <img src="/assets/images/cafe-lounge/lounge.jpg" alt="Event Space">
-    </div>
     <div class="cafelounge__content">
       <div class="cafelounge__content__inner">
         {% regionblock event_space, type:text %}
@@ -166,10 +163,13 @@ meta_tags:
         </p>
         {% endregionblock %}
         <div class="btn-holder">
-          <a class="primary-btn inverse mr-4 mb-3" href=""><span>See Venue Details</span><i class="fas fa-angle-right"></i></a>
+          <a class="primary-btn inverse mr-4 mb-3" href="//cdn.traveltripper.io/site-assets/32_913_21796/media/2018-12-11-063103/Venue-Details.pdf" target="_blank"><span>See Venue Details</span><i class="fas fa-angle-right"></i></a>
           <a class="primary-btn inverse" href="/request-for-proposal/"><span>Enquire</span><i class="fas fa-angle-right"></i></a>
         </div>
       </div>
+    </div>
+    <div class="cafelounge__image">
+      <img src="/assets/images/cafe-lounge/lounge.jpg" alt="Event Space">
     </div>
   </div>
 </section>

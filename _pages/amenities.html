@@ -60,6 +60,25 @@ meta_tags:
     </div>
     {% endfor %}
   </div>
+  <h2>Entire List</h2>
+  <div class="amenities__row">
+    <div class="amenities__list">
+      {% regionblock entire_list, type:text %}
+      <ul>
+        <li>Entire list 1</li>
+        <li>Entire list 2</li>
+        <li>Entire list 3</li>
+        <li>Entire list 4</li>
+        <li>Entire list 5</li>
+        <li>Entire list 6</li>
+        <li>Entire list 7</li>
+        <li>Entire list 8</li>
+        <li>Entire list 9</li>
+        <li>Entire list 10</li>
+      </ul>
+      {% endregionblock %}
+    </div>
+  </div>
 </section>
 
 {% include forms/jotform/newsletter.html %}
