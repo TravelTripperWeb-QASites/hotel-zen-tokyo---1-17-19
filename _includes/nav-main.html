@@ -1,7 +1,7 @@
 {% assign links = site.data.navigation.main %}
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-md navbar-light">
     <a class="navbar-brand" {% if site.active_lang == "en" %}href="/"{% else %}href="/ja/"{% endif %}><img class="w-100" src="/assets/images/logo.png" alt="Hotel Zen Tokyo" /></a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav justify-content-center">
@@ -24,7 +24,7 @@
         <option {% if site.active_lang == "ja" %} selected="true" {% endif %} value="/ja{{ page | permalink: locale: lang }}">日本語</option>
       </select>
     </div>
-    <button class="navbar-toggler collapsed d-md-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler collapsed d-md-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span> </span>
       <span> </span>
       <span> </span>

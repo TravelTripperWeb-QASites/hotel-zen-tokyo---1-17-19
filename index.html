@@ -100,7 +100,7 @@ meta_tags:
         {% endregionblock %}
         <div class="btn-holder">
           {% regionblock room_detail_link, type:html %}
-           <a class="primary-btn" href="/rooms/"><span>{% t 'discover_more' %}</span><i class="fas fa-angle-right"></i></a>
+           <a class="primary-btn" href="{{ lang_url }}/rooms/"><span>{% t 'discover_more' %}</span><i class="fas fa-angle-right"></i></a>
           {% endregionblock %}
         </div>
         {% regionblock room_detail, type:html %}

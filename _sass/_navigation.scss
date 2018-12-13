@@ -71,15 +71,13 @@ nav {
         border-top: solid 1px transparent;
         border-bottom: solid 1px transparent;
         @include transition ($global-transition);
-        @include media-breakpoint-up(lg) {
+        @include media-breakpoint-up(md) {
+          margin: 0 3px;
           padding: 3px 3px 4px;
-          font-size: $type-size-6;
-          text-transform: none;
-        }
-        @include media-breakpoint-up(xl) {
-          margin: 0 10px;
           font-size: $type-size-7;
-          text-transform: uppercase;
+        }
+        @include media-breakpoint-up(lg) {
+          margin: 0 10px;
         }
       }
 
@@ -102,10 +100,13 @@ nav {
     order: 3;
     @include media-breakpoint-up(sm) {
       max-width: none;
-      margin: 0 0 0 30px;
+      margin: 0 0 0 15px;
       padding: 11px 19px;
       font-size: $type-size-5;
-      order: 4;
+      order: 5;
+    }
+    @include media-breakpoint-up(lg) {
+      margin: 0 0 0 30px;
     }
     @media screen and (min-width: 992px) and (max-width: 1100px) {
       margin: 0 0 0 10px;
@@ -196,6 +197,12 @@ nav {
     @include media-breakpoint-up(sm) {
       width: 196px;
     }
+    @include media-breakpoint-up(md) {
+      width: 100px;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 196px;
+    }
     @media screen and (min-width: 992px) and (max-width: 1199px) {
       width: 156px;
     }
@@ -262,7 +269,10 @@ nav {
   order: inherit;
   @include media-breakpoint-up(md) {
     margin-top: 0;
+    margin-right: 0;
+    order: 5;
+  }
+  @include media-breakpoint-up(lg) {
     margin-right: 30px;
-    order: 3;
   }
 }
