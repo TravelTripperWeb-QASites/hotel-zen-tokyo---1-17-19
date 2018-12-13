@@ -2,8 +2,8 @@ main_localized:
   en:
     - title: Rooms
       url: /rooms/
-    - title: Offers
-      url: /offers/
+    #- title: Offers
+    #  url: /offers/
     - title: Amenities
       url: /amenities/
     - title: Cafe Lounge
@@ -12,13 +12,13 @@ main_localized:
       url: /location/
     - title: Gallery
       url: /gallery/
-    - title: Faq
-      url: /faq/
+    #- title: Faq
+    #  url: /faq/
   ja:
     - title: 客室
       url: /ja/rooms/
-    - title: キャンペーン
-      url: /ja/offers/
+    #- title: キャンペーン
+    #  url: /ja/offers/
     - title: アメニティー
       url: /ja/amenities/
     - title: ラウンジ
@@ -27,15 +27,15 @@ main_localized:
       url: /ja/location/
     - title: ギャラリー
       url: /ja/gallery/
-    - title: よくあるご質問
-      url: /ja/faq/
+    #- title: よくあるご質問
+    #  url: /ja/faq/
 
 footer_left_localized:
   en:
     - title: Rooms
       url: /rooms/
-    - title: Offers
-      url: /offers/
+    #- title: Offers
+    #  url: /offers/
     - title: Amenities
       url: /amenities/
     - title: Cafe Lounge
@@ -51,8 +51,8 @@ footer_left_localized:
   ja:
     - title: 客室
       url: /ja/rooms/
-    - title: キャンペーン
-      url: /ja/offers/
+    #- title: キャンペーン
+    #  url: /ja/offers/
     - title: アメニティー
       url: /ja/amenities/
     - title: ラウンジ
