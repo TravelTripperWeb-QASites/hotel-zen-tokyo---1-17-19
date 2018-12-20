@@ -1,6 +1,6 @@
 [
   {
-    "content": "<ul>\n<li>Tooth brush &amp; paste</li>\n<li>Hair comb</li>\n<li>Entire list 5</li>\n<li>Entire list 6</li>\n<li>Entire list 7</li>\n<li>Entire list 8</li>\n<li>Entire list 9</li>\n<li>Entire list 10</li>\n<li>Entire list 11</li>\n<li>Entire list 12</li>\n<li>Entire list 13</li>\n<li>Entire list 14</li>\n<li>Entire list 15</li>\n</ul>",
+    "content": "<ul>\n<li style=\"width: 392.688px;\">Toothbrush &amp; toothpaste</li>\n<li style=\"width: 392.688px;\">Hair comb</li>\n<li style=\"width: 392.688px;\">Razor</li>\n</ul>\n<ul>\n<li style=\"width: 392.688px;\">Towels</li>\n<li style=\"width: 392.688px;\">Shampoo</li>\n<li style=\"width: 392.688px;\">Conditioner</li>\n</ul>\n<ul>\n<li style=\"width: 392.688px;\">Body wash</li>\n<li style=\"width: 392.688px;\">Face wash</li>\n<li style=\"width: 392.688px;\">Make-up remover</li>\n</ul>\n<ul>\n<li style=\"width: 392.688px;\">Face lotion</li>\n<li style=\"width: 392.688px;\">Face cream</li>\n<li style=\"width: 392.688px;\">Slippers</li>\n<li style=\"width: 392.688px;\">Ear plugs</li>\n<li style=\"width: 392.688px;\">Hair&nbsp;bands</li>\n<li style=\"width: 392.688px;\">Cotton swabs</li>\n</ul>",
     "_template": "html"
   }
 ]
