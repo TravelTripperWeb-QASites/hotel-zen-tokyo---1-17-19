@@ -41,7 +41,7 @@
       {
         "question": "部屋の種類について",
         "question_id": "roomopts",
-        "answer": "<p>カプセルのドアは鍵をかけることができません。</p>\n<p>カプセルホテルの規制上の仕様になりますためご理解のほど何卒宜しくお願いいたします。</p>"
+        "answer": "<p><span style=\"font-family: Arial; font-size: 13px; white-space: pre-wrap;\">朝食は用意がございますが、別途料金をいただいております。</span></p>"
       },
       {
         "question": "二人以上が利用できる部屋はありますか？",
