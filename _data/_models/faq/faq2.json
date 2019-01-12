@@ -4,7 +4,7 @@
       {
         "question": "What is the difference between room options?",
         "question_id": "roomoptions",
-        "answer": "<p>Room options vary depending on the size of bed (single or semidouble) and general room size. For details please refer to the ROOMS section.&nbsp;</p>"
+        "answer": "<p>Room options vary depending on the size of bed (single 100cm width or semidouble 120cm width) and room size. For details please refer to the&nbsp;rooms section of the website.&nbsp;</p>"
       },
       {
         "question": "Are there rooms for more than one person?",
@@ -14,10 +14,10 @@
       {
         "question": "Is breakfast provided?",
         "question_id": "breakfast",
-        "answer": "<p>Yes, it's included in the room plan.</p>"
+        "answer": "<p>Yes breakfast is provided, at separate cost. Please inquire at the front desk if you would like breakfast.&nbsp;</p>"
       },
       {
-        "question": "Do rooms come with bath or shower?",
+        "question": "Do the rooms come with a shower and bathroom?",
         "question_id": "bath",
         "answer": "<p>No. There are gender-segregated communal showers and bathrooms.</p>"
       },
@@ -29,19 +29,19 @@
       {
         "question": "Is there a safe? ",
         "question_id": "safe",
-        "answer": "<p>Yes all rooms comes with a safe for you to leave your valuables.</p>"
+        "answer": "<p>Yes. All rooms come with a safe to lock up your valuables.&nbsp;</p>"
       },
       {
         "question": "Where can I leave my luggage? ",
         "question_id": "leaveluggage",
-        "answer": "<p>You can leave your luggage in your personal locker that you're given access to on your room floor.</p>\n<p>Lockers are spacious and fit suitcases and backpages. For larger luggage we can keep them at reception.</p>"
+        "answer": "<p>You can leave your luggage in your personal locker&nbsp;located on the same floor as your room.&nbsp;</p>\n<p>For larger luggage that do not fit in your locker, we can keep them at reception so please inquire.&nbsp;</p>"
       }
     ],
     "ja": [
       {
         "question": "部屋の種類について",
         "question_id": "roomopts",
-        "answer": "<p>カプセルのドアは鍵をかけることができません。</p>\n<p>カプセルホテルの規制上の仕様になりますためご理解のほど何卒宜しくお願いいたします。</p>"
+        "answer": "<p><span style=\"font-family: Arial; font-size: 13px; white-space: pre-wrap;\">朝食は用意がございますが、別途料金をいただいております。</span></p>"
       },
       {
         "question": "二人以上が利用できる部屋はありますか？",
