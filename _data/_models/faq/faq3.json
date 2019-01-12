@@ -30,13 +30,13 @@
     "ja": [
       {
         "question": "どのようなアメニティーがありますか？",
-        "answer": "<p>はい、ございます。</p>",
+        "answer": "<p>ございます。</p>",
         "question_id": "roomamenities"
       },
       {
         "question": "インターネット・無料WiFiはありますか？",
         "question_id": "internet",
-        "answer": "<p>はい。</p>"
+        "answer": ""
       },
       {
         "question": "エレベーターはありますか？",
