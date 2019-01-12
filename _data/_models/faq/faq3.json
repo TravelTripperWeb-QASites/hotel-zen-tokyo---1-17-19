@@ -14,17 +14,17 @@
       {
         "question": "Is there a lift? ",
         "question_id": "lift",
-        "answer": "<p>Yes</p>"
+        "answer": "<p>Yes.&nbsp;</p>"
       },
       {
         "question": "Are pets allowed to stay? ",
         "question_id": "pets",
-        "answer": "<p>Unfortunately pets are not allowed.</p>"
+        "answer": "<p>Pets are not allowed in the hotel.&nbsp;</p>"
       },
       {
         "question": "Can you smoke in the hotel? ",
         "question_id": "smoke",
-        "answer": "<p>You can smoke in the smoking room. You may not smoke anywhere else in the hotel.</p>"
+        "answer": "<p>You can smoke in the smoking area within the building, but you may not smoke anywhere else, including all of the rooms.&nbsp;</p>"
       }
     ],
     "ja": [
