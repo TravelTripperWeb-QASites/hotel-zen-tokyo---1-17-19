@@ -10,7 +10,7 @@
       {
         "question": "Check-In Time?",
         "question_id": "checkin",
-        "answer": "<p>Check-in time is 4PM to midnight.</p>"
+        "answer": "<p>Check-in starts at 4pm.&nbsp;</p>"
       },
       {
         "question": "Check-Out Time?",
@@ -20,12 +20,12 @@
       {
         "question": "Is early check-in available?",
         "question_id": "earlycheckin",
-        "answer": "<p>Early check-in is not available at the moment. In cases of early arrival, it is possible to leave luggage in our storage room for free.</p>\n<p>&nbsp;</p>"
+        "answer": "<p>Early check-in is not available at the moment. In cases of early arrival,&nbsp;you can leave your luggage in our storage until your check-in time. Please notify the hotel if planning on arriving early to drop off your luggage.&nbsp;</p>\n<p>&nbsp;</p>"
       },
       {
         "question": "Is late check-out available?",
         "question_id": "latecheckout",
-        "answer": "<p>Late check is available at a fee. Please enquire for the hours and fee&nbsp;at customer@hotelzen.jp.&nbsp;</p>"
+        "answer": "<p><span style=\"font-size: 10pt; font-family: Arial;\" data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Late check is available at a fee. Please inquire at the front desk if planning on checking out late. &quot;}\" data-sheets-userformat=\"{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:10}\">Late check is available at a fee. Please inquire at the front desk if planning on checking out late.&nbsp;</span></p>"
       },
       {
         "question": "Is reception open 24 hours?",
@@ -50,7 +50,7 @@
       {
         "question": "Can I leave my luggage before check-in or check-out? ",
         "question_id": "luggage",
-        "answer": "<p>Yes! We'll keep it in our storage.&nbsp;</p>"
+        "answer": "<p>Yes,&nbsp;we'll keep it in our storage.&nbsp;</p>"
       }
     ],
     "ja": [
