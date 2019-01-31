@@ -3,8 +3,21 @@ layout: default
 title: hotel zen tokyo - blog search results
 meta_description: Blog Search Results
 meta_tags:
-  robots:
+  robots: 
+published_localized:
+  en: true
+  ja: true
+permalink_localized:
+  en: "/blog/search/"
+  ja: "/ja/blog/search/"
+title_localized:
+  en: Search Results | Hotel Zen Tokyo
+meta_description_localized:
+  en: Blog Search Results
+label: Search Results | Hotel Zen Tokyo
+
 ---
+
 {% assign blogpage = '/blog/'%}
 {% if site.active_lang == 'ja' %}
  {% assign blogpage = '/ja/blog/'%}
