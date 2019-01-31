@@ -1,63 +1,60 @@
-# Site Settings
-title: "Tokyo Hotels"
+---
+title: Tokyo Hotels
 title_separator: "|"
-name: "Hotel Zen Tokyo"
-description: "Hotel Zen Tokyo"
-url: "https://www.hotelzen.jp"
-repository: "TravelTripperWeb-Sites/hotelzentokyo"
+name: Hotel Zen Tokyo
+description: Hotel Zen Tokyo
+url: https://www.hotelzen.jp
+repository: TravelTripperWeb-Sites/hotelzentokyo
 email: contact@senrecube.com
-
-# Language Settings
-default_lang: 'en'
-languages: ['en','ja']
-exclude_from_localizations: ["assets/images","assets/js", "CNAME"]
-
-# Reading Files
+default_lang: en
+languages:
+- en
+- ja
+exclude_from_localizations:
+- assets/images
+- assets/js
+- CNAME
 include:
-  - _pages
+- _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - Makefile
-  - media.json
-  - models.json
-  - node_modules
-  - old_media.json
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
-  - sitemap.json
-  - tmp
-  - vendor
+- "*.sublime-project"
+- "*.sublime-workspace"
+- ".asset-cache"
+- ".bundle"
+- ".jekyll-assets-cache"
+- ".sass-cache"
+- Capfile
+- CHANGELOG
+- config
+- Gemfile
+- Gruntfile.js
+- gulpfile.js
+- LICENSE
+- log
+- Makefile
+- media.json
+- models.json
+- node_modules
+- old_media.json
+- package.json
+- package-lock.json
+- Rakefile
+- README
+- sitemap.json
+- tmp
+- vendor
 keep_files:
-  - .git
-  - assets
+- ".git"
+- assets
 rsync_copy:
-  - assets
-  - _pages
-  - _sass
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Conversion
+- assets
+- _pages
+- _sass
+encoding: utf-8
+markdown_ext: markdown,mkdown,mkdn,mkd,md
 markdown: kramdown
 excerpt_separator: "\n\n"
 incremental: false
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -67,50 +64,32 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-# Sass/SCSS
 sass:
   load_paths:
-    - _sass
+  - _sass
   style: compressed
-
-# Outputting
 permalink: pretty
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: 
 data_paginate:
   per_page: 5
-  data: 'blog'
-  path: '/blog/page:num'
-  pagination_template: 'blog/index.html'
-  sort_field: 'date'
+  data: blog
+  path: "/blog/page:num"
+  pagination_template: blog/index.html
+  sort_field: date
   sort_reverse: true
-
-page_gen: #
-  # - data: 'attractions'
-  #   template: 'attraction-single'
-  #   dir: 'attractions'
-    - data: 'blog'
-      template: 'post-single'
-      dir: '/blog/'
-    - data: 'categories'
-      template: 'category-single'
-      dir: '/blog/category/'
-  # - data: 'events'
-  #   template: 'event-single'
-  #   dir: 'events'
-    - data: 'offers'
-      template: 'offer-single'
-      dir: 'offers'
-  # - data: 'rooms'
-  #   template: 'room-single'
-  #   dir: 'rooms'
-  # - data: 'specials'
-  #   template: 'special-single'
-  #   dir: 'specials'
-    - data: 'careers'
-      template: 'single-careers'
-      dir: '/careers/'
-    - data: 'rooms'
-      template: 'room-single'
-      dir: '/rooms/'
+page_gen:
+- data: blog
+  template: post-single
+  dir: "/blog/"
+- data: categories
+  template: category-single
+  dir: "/blog/category/"
+- data: offers
+  template: offer-single
+  dir: offers
+- data: careers
+  template: single-careers
+  dir: "/careers/"
+- data: rooms
+  template: room-single
+  dir: "/rooms/"
